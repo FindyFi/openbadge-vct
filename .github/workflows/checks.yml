@@ -1,0 +1,30 @@
+name: Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  frozen:
+    name: Frozen v1 files are unchanged
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Compare with tag v1
+        run: |
+          if ! git diff --exit-code --stat v1 -- credentials/v1 templates/svg/OpenBadge_v1.svg; then
+            echo "::error::credentials/v1 and templates/svg/OpenBadge_v1.svg are frozen at tag v1. Publish changes as v2 instead."
+            exit 1
+          fi
+
+  integrity:
+    name: Integrity hashes match the files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/check_integrity.py
