@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <radialGradient id="bg" cx="744" cy="112" r="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f86c2"/>
+      <stop offset="0.45" stop-color="#1f3a5f"/>
+      <stop offset="1" stop-color="#11223a"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="856" height="540" rx="32"/></clipPath>
+    <clipPath id="medal"><circle cx="744" cy="112" r="66"/></clipPath>
+    <clipPath id="text-area"><rect x="56" y="0" width="744" height="540"/></clipPath>
+    <!-- Shows only the date part (YYYY-MM-DD) of an ISO 8601 dateTime -->
+    <clipPath id="date-only"><rect x="56" y="456" width="119" height="34"/></clipPath>
+    <style>
+      .text { position: absolute; bottom: 0; left: 0; right: 0; color: #ffffff;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55); }
+      .text div { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; overflow-wrap: anywhere; }
+      .name { font-size: 40px; font-weight: 700; line-height: 1.15; -webkit-line-clamp: 3; }
+      .field { margin-top: 8px; font-size: 24px; line-height: 1.2; color: #c9d6e8; -webkit-line-clamp: 2; }
+      .creator { margin-top: 36px; font-size: 26px; font-weight: 600; line-height: 1.2; -webkit-line-clamp: 2; }
+      .text .date { display: block; margin-top: 8px; width: 10ch; white-space: nowrap; color: #c9d6e8;
+        font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace; font-size: 20px; }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="856" height="540" fill="url(#bg)"/>
+  </g>
+
+  <!-- Medal: ribbons, ring and a star that shows when the badge image can't be loaded -->
+  <path d="M712 160 L690 252 L718 238 L733 266 L746 176 Z" fill="#e0a526"/>
+  <path d="M776 160 L798 252 L770 238 L755 266 L742 176 Z" fill="#c78d17"/>
+  <circle cx="744" cy="112" r="76" fill="#f2c14e"/>
+  <circle cx="744" cy="112" r="66" fill="#ffffff"/>
+  <path d="M744 72 L755 100 L784 101 L761 120 L769 148 L744 132 L719 148 L727 120 L704 101 L733 100 Z" fill="#f2c14e"/>
+  <image href="{{achievement_image}}" x="678" y="46" width="132" height="132" preserveAspectRatio="xMidYMid slice" clip-path="url(#medal)"/>
+
+  <!-- Text: wrapped HTML where foreignObject is supported, single SVG lines elsewhere -->
+  <switch>
+    <foreignObject x="56" y="40" width="744" height="460" requiredExtensions="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="position: relative; width: 744px; height: 460px;">
+        <div class="text">
+          <div class="name">{{achievement_name}}</div>
+          <div class="field">{{field_of_study}}</div>
+          <div class="creator">{{creator_name}}</div>
+          <div class="date">{{awarded_date}}</div>
+        </div>
+      </div>
+    </foreignObject>
+    <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#ffffff">
+      <g clip-path="url(#text-area)">
+        <text x="56" y="300" font-size="36" font-weight="700">{{achievement_name}}</text>
+        <text x="56" y="340" font-size="24" fill="#c9d6e8">{{field_of_study}}</text>
+        <text x="56" y="440" font-size="26" font-weight="600">{{creator_name}}</text>
+      </g>
+      <text x="56" y="482" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" fill="#c9d6e8" clip-path="url(#date-only)">{{awarded_date}}</text>
+    </g>
+  </switch>
+</svg>

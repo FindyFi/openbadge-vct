@@ -1,0 +1,16 @@
+{
+  "issuer": "https://badges.example.com",
+  "jwks": {
+    "keys": [
+      {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "ZBaLb95O8IqZ9zF-xwnh4KNYWgmviBYLFbqO8_9C39A",
+        "y": "hyBYMmbimBe1347Ipddx2NgSz-yJ4175vwil_nGUhMw",
+        "kid": "badge-signing-key-1",
+        "use": "sig",
+        "alg": "ES256"
+      }
+    ]
+  }
+}

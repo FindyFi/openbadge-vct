@@ -1,0 +1,93 @@
+[
+  {
+    "digest": "tunj2IHH03-n_0jRxZDNAo27FF8quEU95kfVE7f_ke0",
+    "disclosure": "WyItalRnN1pEc1d4Y1pORTl4WEJ2dWVRIiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
+    "contents": [
+      "-jTg7ZDsWxcZNE9xXBvueQ",
+      "jti",
+      "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48"
+    ]
+  },
+  {
+    "digest": "BFA2jrxLPsJrRQdacIZC3TlxOmvQd2AOcxJYyx9cxNI",
+    "disclosure": "WyJmcFp6dkcySUxUWVZRTGpSTzFWUXJBIiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
+    "contents": [
+      "fpZzvG2ILTYVQLjRO1VQrA",
+      "sub",
+      "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35"
+    ]
+  },
+  {
+    "digest": "qhcgAHF49KT3smyYLa_bUr_coWp6bF1fmJXh8rgZ3zg",
+    "disclosure": "WyJrbDFQNmNBSERfT09PMEJEaDlaSnNRIiwibmFtZSIsIkJhY2hlbG9yIG9mIFNjaWVuY2UgaW4gQ29tcHV0ZXIgU2NpZW5jZSJd",
+    "contents": [
+      "kl1P6cAHD_OOO0BDh9ZJsQ",
+      "name",
+      "Bachelor of Science in Computer Science"
+    ]
+  },
+  {
+    "digest": "BySzWsNhO34-WGtQRQcBBGOAG9-VsSzjtCDa7s4H5gc",
+    "disclosure": "WyJZemY3OGtIWkNSemJpNklXaUNHbW9nIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
+    "contents": [
+      "Yzf78kHZCRzbi6IWiCGmog",
+      "awardedDate",
+      "2026-06-12T00:00:00Z"
+    ]
+  },
+  {
+    "digest": "qGCKYFx18mj6PgdwAoM6l3bn173JCHU0nMZAtusi-cM",
+    "disclosure": "WyJWZ29qck15dUY1ME9wRVBFaTdXaEpBIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifSwiaW1hZ2UiOnsiaWQiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbS9pbWFnZXMvYnNjLWNvbXB1dGVyLXNjaWVuY2UucG5nIiwiY2FwdGlvbiI6IkJhY2hlbG9yIG9mIFNjaWVuY2UgYmFkZ2UifSwiY3JlYXRvciI6eyJpZCI6InVybjp1dWlkOjVlN2I5ZDFmLTNhMmMtNGU2Yi04ZDBmLTFjM2E1ZTdiOWQyNCIsIm5hbWUiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJ1cmwiOiJodHRwczovL3VuaXZlcnNpdHkuZXhhbXBsZS5jb20ifX1d",
+    "contents": [
+      "VgojrMyuF50OpEPEi7WhJA",
+      "achievement",
+      {
+        "id": "urn:uuid:a4e6c2b8-1d3f-4b5a-9c7e-6f8d0a2b4c19",
+        "achievementType": "BachelorDegree",
+        "name": "Bachelor of Science",
+        "description": "First-cycle degree in computer science (180 ECTS credits).",
+        "fieldOfStudy": "Computer Science",
+        "creditsAvailable": 180,
+        "criteria": {
+          "narrative": "Complete 180 ECTS credits of studies, including a bachelor's thesis."
+        },
+        "image": {
+          "id": "https://badges.example.com/images/bsc-computer-science.png",
+          "caption": "Bachelor of Science badge"
+        },
+        "creator": {
+          "id": "urn:uuid:5e7b9d1f-3a2c-4e6b-8d0f-1c3a5e7b9d24",
+          "name": "Example University",
+          "url": "https://university.example.com"
+        }
+      }
+    ]
+  },
+  {
+    "digest": "-N5Z0Wjl9oQ-Znk2sOv5vIqSOdQZ_SC_2pwlxnJSWAg",
+    "disclosure": "WyJCLTRWaHdUanE1LWtCcm4yTHI5blpRIiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
+    "contents": [
+      "B-4VhwTjq5-kBrn2Lr9nZQ",
+      "creditsEarned",
+      180
+    ]
+  },
+  {
+    "digest": "7AJpGy1akaA56MEKkoT_AtmSeZAU-Qw4eA0mqJ9k9U0",
+    "disclosure": "WyJLazdsb1h4UkNfN3JuallQb0RZYVJRIiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
+    "contents": [
+      "Kk7loXxRC_7rnjYPoDYaRQ",
+      "activityStartDate",
+      "2023-09-01T00:00:00Z"
+    ]
+  },
+  {
+    "digest": "9tyRv-hhDBkbOmd3btaIjZTQ-1J7tW7g1FgNU0N5Azg",
+    "disclosure": "WyJFSWFndXR4M1hQYkg2YVFRMWNHTXZnIiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
+    "contents": [
+      "EIagutx3XPbH6aQQ1cGMvg",
+      "activityEndDate",
+      "2026-05-31T00:00:00Z"
+    ]
+  }
+]

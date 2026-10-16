@@ -1,0 +1,30 @@
+{
+  "iss": "https://badges.example.com",
+  "iat": 1792108800,
+  "vct": "https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT",
+  "status": {
+    "status_list": {
+      "idx": 4182,
+      "uri": "https://badges.example.com/status/1"
+    }
+  },
+  "cnf": {
+    "jwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "1Mgw3XvKT86E59tEV_VWlh5_8YAZD8vRpsM_5_uMGC0",
+      "y": "LJwse6ooeJ55dHnpMHqANkQnmpOqw0G0VlE_yu_bros"
+    }
+  },
+  "_sd": [
+    "-N5Z0Wjl9oQ-Znk2sOv5vIqSOdQZ_SC_2pwlxnJSWAg",
+    "7AJpGy1akaA56MEKkoT_AtmSeZAU-Qw4eA0mqJ9k9U0",
+    "9tyRv-hhDBkbOmd3btaIjZTQ-1J7tW7g1FgNU0N5Azg",
+    "BFA2jrxLPsJrRQdacIZC3TlxOmvQd2AOcxJYyx9cxNI",
+    "BySzWsNhO34-WGtQRQcBBGOAG9-VsSzjtCDa7s4H5gc",
+    "qGCKYFx18mj6PgdwAoM6l3bn173JCHU0nMZAtusi-cM",
+    "qhcgAHF49KT3smyYLa_bUr_coWp6bF1fmJXh8rgZ3zg",
+    "tunj2IHH03-n_0jRxZDNAo27FF8quEU95kfVE7f_ke0"
+  ],
+  "_sd_alg": "sha-256"
+}

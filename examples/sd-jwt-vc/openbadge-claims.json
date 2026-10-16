@@ -1,0 +1,36 @@
+{
+  "vct": "https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT",
+  "jti": "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48",
+  "status": {
+    "status_list": {
+      "idx": 4182,
+      "uri": "https://badges.example.com/status/1"
+    }
+  },
+  "sub": "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35",
+  "name": "Bachelor of Science in Computer Science",
+  "awardedDate": "2026-06-12T00:00:00Z",
+  "achievement": {
+    "id": "urn:uuid:a4e6c2b8-1d3f-4b5a-9c7e-6f8d0a2b4c19",
+    "achievementType": "BachelorDegree",
+    "name": "Bachelor of Science",
+    "description": "First-cycle degree in computer science (180 ECTS credits).",
+    "fieldOfStudy": "Computer Science",
+    "creditsAvailable": 180,
+    "criteria": {
+      "narrative": "Complete 180 ECTS credits of studies, including a bachelor's thesis."
+    },
+    "image": {
+      "id": "https://badges.example.com/images/bsc-computer-science.png",
+      "caption": "Bachelor of Science badge"
+    },
+    "creator": {
+      "id": "urn:uuid:5e7b9d1f-3a2c-4e6b-8d0f-1c3a5e7b9d24",
+      "name": "Example University",
+      "url": "https://university.example.com"
+    }
+  },
+  "creditsEarned": 180,
+  "activityStartDate": "2023-09-01T00:00:00Z",
+  "activityEndDate": "2026-05-31T00:00:00Z"
+}
