@@ -3,10 +3,10 @@
 This repository publishes SD-JWT VC Type Metadata for issuing [Open Badges 3.0](https://www.imsglobal.org/spec/ob/v3p0) credentials as [IETF SD-JWT VCs](https://datatracker.ietf.org/doc/draft-ietf-oauth-sd-jwt-vc/) (`dc+sd-jwt`). With it you can issue a badge to EUDI and other OpenID4VC wallets that don't process JSON-LD. Any issuer can use this `vct`:
 
 ```text
-https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT
+https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT
 ```
 
-Wallets fetch the type metadata from that URL. It gives the credential's name and colours, labels for the claims in English, Finnish, German, Spanish, French, Dutch and Swedish, and an [SVG card template](#card-template).
+Wallets fetch the type metadata from that URL. It gives the credential's name and colours, labels for the claims in English, Finnish, German, Spanish, French, Dutch and Swedish, and an [SVG card template](#card-template). It replaces [v1](#versions), which stays valid for credentials already issued.
 
 ## Issuing a badge
 
@@ -28,15 +28,18 @@ The claims are the `OpenBadgeCredential` as plain JSON. Property names and value
 | `credentialStatus` | `status` (optional), for example an [IETF Token Status List](https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/) entry |
 | `credentialSubject.id` | `sub` (optional) |
 | other `credentialSubject` properties: `achievement`, `result`, `creditsEarned`, `activityStartDate`, `activityEndDate`, `term`, `identifier`, `role`, … | top-level claims of the same name |
+| the recipient's name (an `identifier` with `identityType: name`) | also `given_name` and `family_name` (optional) |
 | other credential properties: `name`, `description`, `image`, `awardedDate`, `evidence`, … | top-level claims of the same name |
 
 `achievement` is the only required claim.
+
+`given_name` and `family_name` are the recipient's name in parts, as the OpenID Connect claims of the same name and the EU PID in SD-JWT VC use them: `given_name` holds all first names, and `family_name` the surname. A verifier can then compare them with a PID, and wallets that don't show nested claims (such as `identifier[].identityHash`) still show the name. Keep `identifier` too, for wallets and verifiers that read Open Badges.
 
 The organisation that awarded the achievement is `achievement.creator`, an Open Badges `Profile` without `type`. `iss` names the service that signed the credential, which can be a different party, such as a badge platform signing on behalf of a university.
 
 Holder binding (`cnf`) is up to you. Use it if verifiers should be able to check that the person presenting the badge is the one it was issued to.
 
-You decide which claims are selectively disclosable. The example makes every top-level claim disclosable, so the holder can, for example, show the `achievement` without their `sub` or `creditsEarned`.
+You decide which claims are selectively disclosable. The example makes every top-level claim disclosable, so the holder can, for example, show the `achievement` without their `sub`, their name or `creditsEarned`.
 
 ## Card template
 
@@ -60,12 +63,17 @@ All of the example files are in [`examples/`](examples/). The badge, written as 
 
 ```json
 {
-  "vct": "https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT",
+  "vct": "https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT",
   "jti": "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48",
   "status": {
     "status_list": { "idx": 4182, "uri": "https://badges.example.com/status/1" }
   },
   "sub": "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35",
+  "identifier": [
+    { "hashed": false, "identityType": "name", "identityHash": "Alex Example" }
+  ],
+  "given_name": "Alexandra Maria",
+  "family_name": "Example",
   "name": "Bachelor of Science in Computer Science",
   "awardedDate": "2026-06-12T00:00:00Z",
   "achievement": {
@@ -110,7 +118,7 @@ The JWT payload ([`openbadge-payload.json`](examples/sd-jwt-vc/openbadge-payload
 {
   "iss": "https://badges.example.com",
   "iat": 1792108800,
-  "vct": "https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT",
+  "vct": "https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT",
   "status": {
     "status_list": { "idx": 4182, "uri": "https://badges.example.com/status/1" }
   },
@@ -161,7 +169,7 @@ Advertise the credential in `/.well-known/openid-credential-issuer` with a `dc+s
 "credential_configurations_supported": {
   "OpenBadge_dc+sd-jwt": {
     "format": "dc+sd-jwt",
-    "vct": "https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT",
+    "vct": "https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT",
     "scope": "OpenBadge",
     "cryptographic_binding_methods_supported": ["jwk"],
     "credential_signing_alg_values_supported": ["ES256"],
@@ -192,7 +200,7 @@ Verifiers can ask for a badge over [OpenID4VP](https://openid.net/specs/openid-4
       "id": "badge",
       "format": "dc+sd-jwt",
       "meta": {
-        "vct_values": ["https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT"]
+        "vct_values": ["https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT"]
       },
       "claims": [
         { "path": ["achievement", "name"] },
@@ -215,4 +223,11 @@ python3 scripts/generate_examples.py
 
 ## Versions
 
-The `v1` type won't change in a way that breaks existing credentials. Incompatible changes will be published under a new URL (`credentials/v2/…`).
+A published version doesn't change. Changes are published as a new version under a new URL, and CI checks that each released version (git tag `v1`, `v2`, …) is unchanged.
+
+| Version | `vct` | Changes |
+| --- | --- | --- |
+| v2 | `https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT` | Labels for `identifier`, `identifier[].identityHash`, `given_name` and `family_name`. Otherwise the same as v1, including the card template. |
+| v1 | `https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT` | First version. Still valid for credentials issued with it. |
+
+Issue new credentials with v2. v2 is a full copy of v1, not an `extends` of it, so wallets that don't resolve `extends` get every label.

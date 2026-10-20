@@ -6,18 +6,26 @@ on:
 
 jobs:
   frozen:
-    name: Frozen v1 files are unchanged
+    name: Released versions are unchanged
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - name: Compare with tag v1
+      - name: Compare each version with its tag
+        # A version is frozen once its tag (v1, v2, …) exists: its type
+        # metadata and its card template, if it has its own.
         run: |
-          if ! git diff --exit-code --stat v1 -- credentials/v1 templates/svg/OpenBadge_v1.svg; then
-            echo "::error::credentials/v1 and templates/svg/OpenBadge_v1.svg are frozen at tag v1. Publish changes as v2 instead."
-            exit 1
-          fi
+          status=0
+          for tag in $(git tag --list | grep -E '^v[0-9]+$'); do
+            paths="credentials/$tag"
+            [ -e "templates/svg/OpenBadge_$tag.svg" ] && paths="$paths templates/svg/OpenBadge_$tag.svg"
+            if ! git diff --exit-code --stat "$tag" -- $paths; then
+              echo "::error::$paths are frozen at tag $tag. Publish changes as a new version instead."
+              status=1
+            fi
+          done
+          exit $status
 
   integrity:
     name: Integrity hashes match the files

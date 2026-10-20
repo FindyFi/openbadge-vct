@@ -1,5 +1,5 @@
 {
-  "vct": "https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT",
+  "vct": "https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT",
   "jti": "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48",
   "status": {
     "status_list": {
@@ -8,6 +8,15 @@
     }
   },
   "sub": "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35",
+  "identifier": [
+    {
+      "hashed": false,
+      "identityType": "name",
+      "identityHash": "Alex Example"
+    }
+  ],
+  "given_name": "Alexandra Maria",
+  "family_name": "Example",
   "name": "Bachelor of Science in Computer Science",
   "awardedDate": "2026-06-12T00:00:00Z",
   "achievement": {
