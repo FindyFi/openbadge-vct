@@ -4,7 +4,7 @@
       "id": "badge",
       "format": "dc+sd-jwt",
       "meta": {
-        "vct_values": ["https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT"]
+        "vct_values": ["https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT"]
       },
       "claims": [
         { "path": ["achievement", "name"] },
