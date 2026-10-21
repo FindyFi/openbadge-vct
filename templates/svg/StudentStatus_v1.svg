@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <clipPath id="card"><rect width="856" height="540" rx="32"/></clipPath>
+    <clipPath id="text-area"><rect x="56" y="0" width="744" height="440"/></clipPath>
+    <clipPath id="header-area"><rect x="152" y="0" width="648" height="160"/></clipPath>
+    <clipPath id="footer-area"><rect x="0" y="440" width="856" height="100"/></clipPath>
+    <style>
+      .text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #0d0342; }
+      .text div { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; overflow-wrap: anywhere; }
+      .text .header { position: absolute; top: 0; left: 112px; right: 0; height: 88px; display: flex; align-items: center; }
+      .header .institution { font-size: 28px; font-weight: 600; line-height: 1.2; -webkit-line-clamp: 2; }
+      .body { position: absolute; top: 128px; left: 0; right: 0; }
+      .name { font-size: 44px; font-weight: 700; line-height: 1.12; -webkit-line-clamp: 2; }
+      .text .birthdate { display: block; margin-top: 6px; white-space: nowrap;
+        font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace; font-size: 20px; }
+      .level { margin-top: 26px; font-size: 24px; line-height: 1.2; -webkit-line-clamp: 1; }
+      .programme { margin-top: 4px; font-size: 28px; font-weight: 600; line-height: 1.2; -webkit-line-clamp: 2; }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="856" height="540" fill="#ff1493"/>
+    <!-- Background: a large mortarboard watermark and the card's navy footer band -->
+    <g fill="#e8107f">
+      <path d="M700 196 L896 268 L700 340 L504 268 Z"/>
+      <path d="M594 300 L594 392 C640 428 760 428 806 392 L806 300 L700 340 Z"/>
+    </g>
+    <rect x="0" y="440" width="856" height="100" fill="#0d0342"/>
+  </g>
+
+  <!-- Mortarboard -->
+  <g fill="#0d0342">
+    <path d="M96 52 L144 70 L96 88 L48 70 Z"/>
+    <path d="M70 80 L70 102 C82 112 110 112 122 102 L122 80 L96 90 Z"/>
+    <rect x="139" y="72" width="4" height="28"/>
+    <circle cx="141" cy="102" r="5"/>
+  </g>
+
+  <!-- Hourglass: the date the status is valid until -->
+  <g fill="#ff1493">
+    <rect x="56" y="462" width="40" height="6" rx="3"/>
+    <rect x="56" y="512" width="40" height="6" rx="3"/>
+    <path d="M61 468 L91 468 L91 474 L80 490 L91 506 L91 512 L61 512 L61 506 L72 490 L61 474 Z" fill="none" stroke="#ff1493" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M66 476 L86 476 L76 488 Z"/>
+    <path d="M76 497 L87 508 L65 508 Z"/>
+  </g>
+
+  <!-- Text: wrapped HTML where foreignObject is supported, single SVG lines elsewhere -->
+  <switch>
+    <foreignObject x="56" y="40" width="744" height="400" requiredExtensions="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text" style="position: relative; width: 744px; height: 400px;">
+        <div class="header"><div class="institution">{{institution_name}}</div></div>
+        <div class="body">
+          <div class="name">{{given_name}} {{family_name}}</div>
+          <div class="birthdate">{{birthdate}}</div>
+          <div class="level">{{education_level_name}}</div>
+          <div class="programme">{{programme}}</div>
+        </div>
+      </div>
+    </foreignObject>
+    <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#0d0342">
+      <text x="168" y="94" font-size="28" font-weight="600" clip-path="url(#header-area)">{{institution_name}}</text>
+      <g clip-path="url(#text-area)">
+        <text x="56" y="212" font-size="40" font-weight="700">{{given_name}} {{family_name}}</text>
+        <text x="56" y="246" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20">{{birthdate}}</text>
+        <text x="56" y="310" font-size="24">{{education_level_name}}</text>
+        <text x="56" y="346" font-size="28" font-weight="600">{{programme}}</text>
+      </g>
+    </g>
+  </switch>
+  <text x="116" y="501" font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="30" font-weight="700" fill="#ff1493" clip-path="url(#footer-area)">{{expiry_date}}</text>
+</svg>
