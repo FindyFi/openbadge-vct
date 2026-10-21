@@ -1,0 +1,24 @@
+title: openbadge-vct
+description: SD-JWT VC Type Metadata for Open Badges 3.0 credentials
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# The README contains {{placeholders}} that Liquid would otherwise empty.
+render_with_liquid: false
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: false
+
