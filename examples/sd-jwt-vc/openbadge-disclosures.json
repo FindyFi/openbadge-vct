@@ -1,27 +1,27 @@
 [
   {
-    "digest": "oowewMY47iiF_4LGdZ0749GxSo6GSdAzdzoHMwmST8Y",
-    "disclosure": "WyJJbWQ4d0hVejNSQzVVY3VvMnFCMjZnIiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
+    "digest": "6Jtlk-2-_XjAxr4b_2t6b4yJFqBM0c0WIqHrgbXG6CI",
+    "disclosure": "WyJ3ejMtaTc2bWFSU0VGbEcwdk94Yi13IiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
     "contents": [
-      "Imd8wHUz3RC5Ucuo2qB26g",
+      "wz3-i76maRSEFlG0vOxb-w",
       "jti",
       "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48"
     ]
   },
   {
-    "digest": "we7HXJyNSoEz5s6NpGw8D4R9Wq2ijDCclgX8ZNuQJns",
-    "disclosure": "WyI1Vl9iVWpNZk9zdTdrWUcxQ0pldUx3Iiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
+    "digest": "ZkBujZiux7Mfpv99jKJBvVLH_z6Lbug3G2qRaTOaxj8",
+    "disclosure": "WyJ1V002UFdBS1NVRkZ2WEhPMUcwcG1nIiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
     "contents": [
-      "5V_bUjMfOsu7kYG1CJeuLw",
+      "uWM6PWAKSUFFvXHO1G0pmg",
       "sub",
       "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35"
     ]
   },
   {
-    "digest": "9EWn8TVLEW_V7bzbU3kRgERBr1-FB9tiWQiL7M7fOho",
-    "disclosure": "WyI2bFJfSUlUVVItOWgzZE4yVm1NQWl3IiwiaWRlbnRpZmllciIsW3siaGFzaGVkIjpmYWxzZSwiaWRlbnRpdHlUeXBlIjoibmFtZSIsImlkZW50aXR5SGFzaCI6IkFsZXggRXhhbXBsZSJ9XV0",
+    "digest": "mz_8Sfg3GOBdjYJCHxW2sMJnhN8lgGUYLbuMRxRlNvc",
+    "disclosure": "WyJTbEVFVUduMm5YWEd6eHdjSVZDM1VBIiwiaWRlbnRpZmllciIsW3siaGFzaGVkIjpmYWxzZSwiaWRlbnRpdHlUeXBlIjoibmFtZSIsImlkZW50aXR5SGFzaCI6IkFsZXggRXhhbXBsZSJ9XV0",
     "contents": [
-      "6lR_IITUR-9h3dN2VmMAiw",
+      "SlEEUGn2nXXGzxwcIVC3UA",
       "identifier",
       [
         {
@@ -33,46 +33,46 @@
     ]
   },
   {
-    "digest": "Nqgq8ifULS2cWFAqh6t9uNILmcySYkoCpUqvfhwxp0A",
-    "disclosure": "WyJ4WG00ckkyb3V6ZTRRMEdKMmRGU0Z3IiwiZ2l2ZW5fbmFtZSIsIkFsZXhhbmRyYSBNYXJpYSJd",
+    "digest": "iUcEHqgqPyg6SztCDeDnTLENh8zswmE3FsAHXhsHBHk",
+    "disclosure": "WyJJRnFsWU5mQmR3eklEa2NQNXVRamxRIiwiZ2l2ZW5fbmFtZSIsIkFsZXhhbmRyYSBNYXJpYSJd",
     "contents": [
-      "xXm4rI2ouze4Q0GJ2dFSFw",
+      "IFqlYNfBdwzIDkcP5uQjlQ",
       "given_name",
       "Alexandra Maria"
     ]
   },
   {
-    "digest": "ziUxLTQ2RRclbTKpuo49G11GmXKysaU7Qhh88Gg2x7g",
-    "disclosure": "WyJfQk4wbVN2MlJpemVNYWdKNEhYT2NBIiwiZmFtaWx5X25hbWUiLCJFeGFtcGxlIl0",
+    "digest": "XN0OF1wyWGo58MJnagt5ATmn9yMTFZ4zaL0jIgC_HdA",
+    "disclosure": "WyI3MUhZRDJiZGJheHVicG9QRFc0ZHNBIiwiZmFtaWx5X25hbWUiLCJFeGFtcGxlIl0",
     "contents": [
-      "_BN0mSv2RizeMagJ4HXOcA",
+      "71HYD2bdbaxubpoPDW4dsA",
       "family_name",
       "Example"
     ]
   },
   {
-    "digest": "-fjxjJb5z785db9jGfci2aVwZGhlQm8zGEbMAZcX7Cs",
-    "disclosure": "WyJOZUhrWDVpUFhZbXdlV0F3bWdsRXRnIiwibmFtZSIsIkJhY2hlbG9yIG9mIFNjaWVuY2UgaW4gQ29tcHV0ZXIgU2NpZW5jZSJd",
+    "digest": "h4Qkg53kd_S256o0IooeLqDp3yWobYTd5xMXy2ubVC4",
+    "disclosure": "WyJlU2tmNDBOS0MxdnYxNVpCZXd4RDFRIiwibmFtZSIsIkJhY2hlbG9yIG9mIFNjaWVuY2UgaW4gQ29tcHV0ZXIgU2NpZW5jZSJd",
     "contents": [
-      "NeHkX5iPXYmweWAwmglEtg",
+      "eSkf40NKC1vv15ZBewxD1Q",
       "name",
       "Bachelor of Science in Computer Science"
     ]
   },
   {
-    "digest": "0GliG79gxd0JBRag24lVOccHktBooD-RkzBDnz_Jtmc",
-    "disclosure": "WyJ4akd1d01ZbEdyYWFGbWMyNGNxQ0tBIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
+    "digest": "SO5G2R52nmEz1u9qLRjKBzABbflCJG3K-hFQ1ISOfuc",
+    "disclosure": "WyIwTmhZT1hQN0dEenU5TjhvYVlsclBnIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
     "contents": [
-      "xjGuwMYlGraaFmc24cqCKA",
+      "0NhYOXP7GDzu9N8oaYlrPg",
       "awardedDate",
       "2026-06-12T00:00:00Z"
     ]
   },
   {
-    "digest": "ja-L-V_zCWbUivw5Gj4dwMsXQWsZ3BqrHuxrIz8ZQJw",
-    "disclosure": "WyJybTJTdTZrS1VwUnN4NUdDVk04anJBIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifSwiaW1hZ2UiOnsiaWQiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbS9pbWFnZXMvYnNjLWNvbXB1dGVyLXNjaWVuY2UucG5nIiwiY2FwdGlvbiI6IkJhY2hlbG9yIG9mIFNjaWVuY2UgYmFkZ2UifSwiY3JlYXRvciI6eyJpZCI6InVybjp1dWlkOjVlN2I5ZDFmLTNhMmMtNGU2Yi04ZDBmLTFjM2E1ZTdiOWQyNCIsIm5hbWUiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJ1cmwiOiJodHRwczovL3VuaXZlcnNpdHkuZXhhbXBsZS5jb20ifX1d",
+    "digest": "XYSLCI18X5pcYYpkNNRGTmXDS-McgWEI7zUCubATutU",
+    "disclosure": "WyJkOW9EemJUY05EZXJ2NFFGejUzRHpBIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifSwiaW1hZ2UiOnsiaWQiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbS9pbWFnZXMvYnNjLWNvbXB1dGVyLXNjaWVuY2UucG5nIiwiY2FwdGlvbiI6IkJhY2hlbG9yIG9mIFNjaWVuY2UgYmFkZ2UifSwiY3JlYXRvciI6eyJpZCI6InVybjp1dWlkOjVlN2I5ZDFmLTNhMmMtNGU2Yi04ZDBmLTFjM2E1ZTdiOWQyNCIsIm5hbWUiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJ1cmwiOiJodHRwczovL3VuaXZlcnNpdHkuZXhhbXBsZS5jb20ifX1d",
     "contents": [
-      "rm2Su6kKUpRsx5GCVM8jrA",
+      "d9oDzbTcNDerv4QFz53DzA",
       "achievement",
       {
         "id": "urn:uuid:a4e6c2b8-1d3f-4b5a-9c7e-6f8d0a2b4c19",
@@ -97,28 +97,28 @@
     ]
   },
   {
-    "digest": "v_dyIu4Y0Q4C3lTsY72q_QmOA2qavUJgCGymjncngD4",
-    "disclosure": "WyJfRkxDMkp2bGFpQ3ZPcWVGZ0pqWnJ3IiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
+    "digest": "zv6YcOos1pXTX6Iv0xoTJihq6T2wPVswf_iR86Jcfs0",
+    "disclosure": "WyJFTmp4WXQ2ZjQxRDlzeGdhYkhva2ZBIiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
     "contents": [
-      "_FLC2JvlaiCvOqeFgJjZrw",
+      "ENjxYt6f41D9sxgabHokfA",
       "creditsEarned",
       180
     ]
   },
   {
-    "digest": "9e9I7gaOnlNjZKBNhcSVDQpxQEQCgVftZ83SLe7zrKQ",
-    "disclosure": "WyI3Wkw3MGN2TDFHRE5tdTVndUNFX0N3IiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
+    "digest": "NDAfzKbcKz_9sKnotwM7wFIO5hI73HzA1nfaS15RRKc",
+    "disclosure": "WyIzRElXYVdhWlg4UkdfcUxBck1tcWp3IiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
     "contents": [
-      "7ZL70cvL1GDNmu5guCE_Cw",
+      "3DIWaWaZX8RG_qLArMmqjw",
       "activityStartDate",
       "2023-09-01T00:00:00Z"
     ]
   },
   {
-    "digest": "8YiNFQTtR-VpVwtDYLN2D8Hycrid3vCEc5b2ewM3sKM",
-    "disclosure": "WyJ4UTI3Z1d0QTNHelNGTEhhclFlWEZ3IiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
+    "digest": "P4rhIWMDswukDl1-Ofm2GiYPamIi5R-soWnIPU_1r3c",
+    "disclosure": "WyJ1bzMyNDQ5Rmg2ZllldkF2ZTNOVVJRIiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
     "contents": [
-      "xQ27gWtA3GzSFLHarQeXFw",
+      "uo32449Fh6fYevAve3NURQ",
       "activityEndDate",
       "2026-05-31T00:00:00Z"
     ]
