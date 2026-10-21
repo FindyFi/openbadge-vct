@@ -27,6 +27,7 @@ jobs:
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Check the built site
         # The type metadata must be published at the URLs the README gives,
         # and the README's {{placeholders}} must survive the build.

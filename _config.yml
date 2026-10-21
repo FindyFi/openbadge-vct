@@ -1,6 +1,9 @@
 title: openbadge-vct
 description: SD-JWT VC Type Metadata for Open Badges 3.0 credentials
 theme: jekyll-theme-primer
+repository: FindyFi/openbadge-vct
+url: https://openbadge.digicredential.eu
+baseurl: ""
 markdown: kramdown
 kramdown:
   input: GFM
