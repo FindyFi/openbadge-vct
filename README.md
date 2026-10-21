@@ -8,6 +8,8 @@ https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT
 
 Wallets fetch the type metadata from that URL. It gives the credential's name and colours, labels for the claims in English, Finnish, German, Spanish, French, Dutch and Swedish, and an [SVG card template](#card-template). It replaces [v1](#versions), which stays valid for credentials already issued.
 
+The repository also publishes a separate type for a [student status](#student-status) (Opiskelijatodiste): proof that someone is enrolled at a Finnish educational institution.
+
 ## Issuing a badge
 
 1. Turn your `OpenBadgeCredential` into flat JSON claims ([mapping](#claims)).
@@ -213,9 +215,51 @@ Verifiers can ask for a badge over [OpenID4VP](https://openid.net/specs/openid-4
 }
 ```
 
+## Student status
+
+A student status ("Opiskelijatodiste") says that the holder is enrolled as a student according to the Finnish national study records (Koski). It is a type of its own, not an Open Badge, with flat claims in the style of the [EU PID](https://github.com/eu-digital-identity-wallet/eudi-doc-attestation-rulebooks-catalog), so a verifier such as a shop giving a student discount can ask for exactly what it needs:
+
+```text
+https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT
+```
+
+The type metadata gives the name and description in the same seven languages, labels for every claim, hot pink and navy colours, and a [card template](templates/svg/StudentStatus_v1.svg). The `sd` column is the type metadata's `sd`: `allowed` claims can be selectively disclosed, `never` claims are always shown. A verifier can then check that the holder is enrolled at the second level until June 2027 without learning who they are or where they study.
+
+| Claim | Example | `sd` |
+| --- | --- | --- |
+| `sub` | `urn:oid:1.2.246.562.24.00000000001` (learner number) | `allowed` |
+| `given_name`, `family_name` | `Testi Matti`, `Opiskelija` | `allowed` |
+| `birthdate` | `2008-03-14` | `allowed` |
+| `enrolment_status` | `enrolled`, the only value (mandatory) | `never` |
+| `institution_name` | `Esimerkkilukio` (mandatory) | `allowed` |
+| `institution_id` | `urn:oid:1.2.246.562.10.00000000002` (Koski organisation oid) | `allowed` |
+| `institution_code` | `00000` (Statistics Finland's school number) | `allowed` |
+| `education_level`, `education_level_name` | `3`, `Toinen aste` (Statistics Finland level of education) | `never` |
+| `education_type`, `education_type_name` | `lukiokoulutus`, `Lukiokoulutus` | `never` |
+| `programme` | `Lukion oppimäärä` | `allowed` |
+| `start_date` | `2024-08-08` | `never` |
+| `expiry_date` | `2027-06-05` (mandatory) | `never` |
+| `issuance_date` | `2026-10-20`, the date the status was checked (mandatory) | `never` |
+| `issuing_country` | `FI` | `never` |
+
+Leave out a claim the record doesn't have. `iss`, `iat`, `exp`, `cnf` and `vct` are visible as usual. `expiry_date` and `issuance_date` repeat `exp` and `iat` as dates, because wallets show JWT times poorly and a card can only show claims; `exp` is the one that counts. `status` is the SD-JWT VC claim for a status list, so the enrolment is `enrolment_status`.
+
+The card shows these claims and no fixed text. The expiry date is shown beside an hourglass:
+
+| Placeholder | Claim |
+| --- | --- |
+| `{{institution_name}}` | `institution_name` |
+| `{{given_name}}` `{{family_name}}` | `given_name`, `family_name` |
+| `{{birthdate}}` | `birthdate` |
+| `{{education_level_name}}` | `education_level_name` |
+| `{{programme}}` | `programme` |
+| `{{expiry_date}}` | `expiry_date` |
+
+Issue it like a badge: sign the claims as a `dc+sd-jwt` with the `vct` above, and offer it with its own credential configuration. The examples are [`student-status-claims.json`](examples/sd-jwt-vc/student-status-claims.json), the signed [`student-status.sd-jwt`](examples/sd-jwt-vc/student-status.sd-jwt), the `StudentStatusSdJwtVc` configuration in [`openid-credential-issuer.json`](examples/openid-credential-issuer.json), and a DCQL query that asks only for the status, the level and the expiry date ([`dcql-query-student-status.json`](examples/dcql-query-student-status.json)). Pin the type metadata with `vct#integrity`, as the examples do.
+
 ## Regenerating the examples
 
-`scripts/generate_examples.py` signs `openbadge-claims.json` with a new ES256 key and rewrites the other files in `examples/`. It needs `pip install cryptography`.
+`scripts/generate_examples.py` signs `openbadge-claims.json` and `student-status-claims.json` with a new ES256 key and rewrites the other files in `examples/`. The claims that the type metadata marks `"sd": "never"` stay visible; the others become disclosures. It needs `pip install cryptography`.
 
 ```sh
 python3 scripts/generate_examples.py
@@ -223,11 +267,12 @@ python3 scripts/generate_examples.py
 
 ## Versions
 
-A published version doesn't change. Changes are published as a new version under a new URL, and CI checks that each released version (git tag `v1`, `v2`, …) is unchanged.
+A published version doesn't change. Changes are published as a new version under a new URL, and CI checks that each released version (git tag `v1`, `v2`, … for the Open Badge, `student-status-v1`, … for the student status) is unchanged.
 
 | Version | `vct` | Changes |
 | --- | --- | --- |
 | v2 | `https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT` | Labels for `identifier`, `identifier[].identityHash`, `given_name` and `family_name`. Otherwise the same as v1, including the card template. |
 | v1 | `https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT` | First version. Still valid for credentials issued with it. |
+| Student status v1 | `https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT` | First version. |
 
-Issue new credentials with v2. v2 is a full copy of v1, not an `extends` of it, so wallets that don't resolve `extends` get every label.
+Issue new Open Badges with v2. v2 is a full copy of v1, not an `extends` of it, so wallets that don't resolve `extends` get every label.
