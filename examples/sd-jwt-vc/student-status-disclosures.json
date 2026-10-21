@@ -1,0 +1,74 @@
+[
+  {
+    "digest": "_yWxFwgYmtEn627vnSiU6ncoNubqM3izupM883gLX_o",
+    "disclosure": "WyJUd0EzRmxpZzNVb3RPb2NtUHdYd013Iiwic3ViIiwidXJuOm9pZDoxLjIuMjQ2LjU2Mi4yNC4wMDAwMDAwMDAwMSJd",
+    "contents": [
+      "TwA3Flig3UotOocmPwXwMw",
+      "sub",
+      "urn:oid:1.2.246.562.24.00000000001"
+    ]
+  },
+  {
+    "digest": "HjNuR4NHCxV-DKNN__YrSldmpZtK_vMvJleSJk4p4oQ",
+    "disclosure": "WyJEQmhCSXhwQ3NhMTNHTDdOTm83R1dnIiwiZ2l2ZW5fbmFtZSIsIlRlc3RpIE1hdHRpIl0",
+    "contents": [
+      "DBhBIxpCsa13GL7NNo7GWg",
+      "given_name",
+      "Testi Matti"
+    ]
+  },
+  {
+    "digest": "OsQ1zgojCRPxMwKi8TzuBFs2SMPK3oG_GhVVgG9hMc8",
+    "disclosure": "WyJqZUYyS0FqN3pPWm1XTHlPUHZQZUt3IiwiZmFtaWx5X25hbWUiLCJPcGlza2VsaWphIl0",
+    "contents": [
+      "jeF2KAj7zOZmWLyOPvPeKw",
+      "family_name",
+      "Opiskelija"
+    ]
+  },
+  {
+    "digest": "QsHFVYXktymQfAmT-yPW-FkTyIvMocNtj-pmC9L93zw",
+    "disclosure": "WyJxRXNVekx6ejR6dUtEV04tSGRzd0hRIiwiYmlydGhkYXRlIiwiMjAwOC0wMy0xNCJd",
+    "contents": [
+      "qEsUzLzz4zuKDWN-HdswHQ",
+      "birthdate",
+      "2008-03-14"
+    ]
+  },
+  {
+    "digest": "iWumv5hlYbMBV3ZAwiUwYVlRpCOHxFj88L2CWzayRZA",
+    "disclosure": "WyJ1ZHRvbHJUTjVKYlhCRG1MZVc2bEJ3IiwiaW5zdGl0dXRpb25fbmFtZSIsIkVzaW1lcmtraWx1a2lvIl0",
+    "contents": [
+      "udtolrTN5JbXBDmLeW6lBw",
+      "institution_name",
+      "Esimerkkilukio"
+    ]
+  },
+  {
+    "digest": "OlPQBjoeISfxZKIne4N7SKOgjPmqTVpzc-IW3YRRSrM",
+    "disclosure": "WyJRZnhSZTk2LVE2dktXM0F2cnJiRjZnIiwiaW5zdGl0dXRpb25faWQiLCJ1cm46b2lkOjEuMi4yNDYuNTYyLjEwLjAwMDAwMDAwMDAyIl0",
+    "contents": [
+      "QfxRe96-Q6vKW3AvrrbF6g",
+      "institution_id",
+      "urn:oid:1.2.246.562.10.00000000002"
+    ]
+  },
+  {
+    "digest": "IKciEGN_qtyncaWfOyPy--ORy1J0ZV5K_dFzDuOLgn4",
+    "disclosure": "WyJ0TW50RHFFVkltQ1Zja0Zhdmt2SGV3IiwiaW5zdGl0dXRpb25fY29kZSIsIjAwMDAwIl0",
+    "contents": [
+      "tMntDqEVImCVckFavkvHew",
+      "institution_code",
+      "00000"
+    ]
+  },
+  {
+    "digest": "t9A5SDqPIrOaTWwtDJYn9H3_TT0LNHvOE7rs0vjoyik",
+    "disclosure": "WyI0QllrWkNCME10a0Q5Qld1S0JCdVZnIiwicHJvZ3JhbW1lIiwiTHVraW9uIG9wcGltw6TDpHLDpCJd",
+    "contents": [
+      "4BYkZCB0MtkD9BWuKBBuVg",
+      "programme",
+      "Lukion oppimäärä"
+    ]
+  }
+]

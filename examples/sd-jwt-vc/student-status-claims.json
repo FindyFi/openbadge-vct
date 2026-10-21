@@ -1,0 +1,23 @@
+{
+  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT",
+  "vct#integrity": "sha256-7Jmwf4t98ylr3XSaOLcU69ht4yGoZQ72kMxZ/5MGNWM=",
+  "iat": 1792476000,
+  "exp": 1812229199,
+  "sub": "urn:oid:1.2.246.562.24.00000000001",
+  "given_name": "Testi Matti",
+  "family_name": "Opiskelija",
+  "birthdate": "2008-03-14",
+  "enrolment_status": "enrolled",
+  "institution_name": "Esimerkkilukio",
+  "institution_id": "urn:oid:1.2.246.562.10.00000000002",
+  "institution_code": "00000",
+  "education_level": "3",
+  "education_level_name": "Toinen aste",
+  "education_type": "lukiokoulutus",
+  "education_type_name": "Lukiokoulutus",
+  "programme": "Lukion oppimäärä",
+  "start_date": "2024-08-08",
+  "expiry_date": "2027-06-05",
+  "issuance_date": "2026-10-20",
+  "issuing_country": "FI"
+}
