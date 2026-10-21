@@ -10,7 +10,12 @@ kramdown:
   syntax_highlighter: rouge
 
 # The README contains {{placeholders}} that Liquid would otherwise empty.
-render_with_liquid: false
+# Jekyll 4 reads render_with_liquid from front matter, so set it as a default.
+defaults:
+  - scope:
+      path: ""
+    values:
+      render_with_liquid: false
 
 plugins:
   - jekyll-optional-front-matter
