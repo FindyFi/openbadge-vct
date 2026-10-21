@@ -13,13 +13,19 @@ jobs:
         with:
           fetch-depth: 0
       - name: Compare each version with its tag
-        # A version is frozen once its tag (v1, v2, …) exists: its type
-        # metadata and its card template, if it has its own.
+        # A version is frozen once its tag exists: its type metadata and its
+        # card template, if it has its own. Open Badge versions are tagged
+        # v1, v2, …; Student status versions student-status-v1, ….
         run: |
           status=0
-          for tag in $(git tag --list | grep -E '^v[0-9]+$'); do
-            paths="credentials/$tag"
-            [ -e "templates/svg/OpenBadge_$tag.svg" ] && paths="$paths templates/svg/OpenBadge_$tag.svg"
+          for tag in $(git tag --list | grep -E '^(student-status-)?v[0-9]+$'); do
+            version="${tag##*-}"
+            case "$tag" in
+              student-status-*) dir="credentials/student-status/$version"; svg="templates/svg/StudentStatus_$version.svg" ;;
+              *) dir="credentials/$version"; svg="templates/svg/OpenBadge_$version.svg" ;;
+            esac
+            paths="$dir"
+            [ -e "$svg" ] && paths="$paths $svg"
             if ! git diff --exit-code --stat "$tag" -- $paths; then
               echo "::error::$paths are frozen at tag $tag. Publish changes as a new version instead."
               status=1
