@@ -1,54 +1,54 @@
 [
   {
-    "digest": "UjaJok4iA_LZ7A-yAFrkRB6CWaThxU4UWkJ1svL-TQM",
-    "disclosure": "WyJ5TmpST1UzeWN6VDU4Zk1MR3ItMlR3IiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
+    "digest": "v5T1pYxISh9yDTQcslfBpeu6I9eXtMWAfl9bpmklV8I",
+    "disclosure": "WyJobkV3X3Y1aDN6YlJQdm82eldLYkxnIiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
     "contents": [
-      "yNjROU3yczT58fMLGr-2Tw",
+      "hnEw_v5h3zbRPvo6zWKbLg",
       "jti",
       "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48"
     ]
   },
   {
-    "digest": "lEgh8Hmix-n2Dq2QxiRe1zbRA83CQZmcKrI5LfwSHUA",
-    "disclosure": "WyJFdFJtLUdWSDdobWtMUThVaHFVRW9RIiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
+    "digest": "bUYS9YhbyIFLuEZFQ3c-Erp64fSD4hVq9H4HMOgy_7A",
+    "disclosure": "WyJNZ19UQzdXeFh6bVV0ZGczTkhKRWdRIiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
     "contents": [
-      "EtRm-GVH7hmkLQ8UhqUEoQ",
+      "Mg_TC7WxXzmUtdg3NHJEgQ",
       "sub",
       "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35"
     ]
   },
   {
-    "digest": "0JKIYIrOQHXjm-cnqUZwDgUBGNw7I5gTwJ0-NoadUBY",
-    "disclosure": "WyJicEFXakNZNkZPenZRbE5WTTBLQW1BIiwibmFtZSIsIkFsZXhhbmRyYSBNYXJpYSBFeGFtcGxlIl0",
+    "digest": "veKtyxGhcjEakoESRaeQ1ztBnVRq-RVpNzjVexTXHeY",
+    "disclosure": "WyIwOEE5X18yUk9nMExFZGpDMFkwa0dBIiwibmFtZSIsIkFsZXhhbmRyYSBNYXJpYSBFeGFtcGxlIl0",
     "contents": [
-      "bpAWjCY6FOzvQlNVM0KAmA",
+      "08A9__2ROg0LEdjC0Y0kGA",
       "name",
       "Alexandra Maria Example"
     ]
   },
   {
-    "digest": "-YhvLssdiUIeAxd724vhE41ZRL45FvD7rMeFJFgikC4",
-    "disclosure": "WyJHcWlQOE5Ud2hVMlQ3b1QyamUwbjZBIiwiZ2l2ZW5fbmFtZSIsIkFsZXhhbmRyYSBNYXJpYSJd",
+    "digest": "wkmAWP974G4RjV1DEUasktBJ_gEe7_AWb4P7UMQfMt8",
+    "disclosure": "WyJvc05ld3gxU25KekRDUWRoQ3pVenN3IiwiZ2l2ZW5fbmFtZSIsIkFsZXhhbmRyYSBNYXJpYSJd",
     "contents": [
-      "GqiP8NTwhU2T7oT2je0n6A",
+      "osNewx1SnJzDCQdhCzUzsw",
       "given_name",
       "Alexandra Maria"
     ]
   },
   {
-    "digest": "VQ99qKsYA-e76lIqf-SD-EP9a--9oefflihZgKycP7s",
-    "disclosure": "WyJVZjR4elhvZk5rZEZ1dDdPUDQwR1pRIiwiZmFtaWx5X25hbWUiLCJFeGFtcGxlIl0",
+    "digest": "YTF_NG_Kv9E-n-bqru4BRQDOrGqy6T2ci9GLXcvkWzA",
+    "disclosure": "WyJVMWlRelVrWHpfTzd0UzZIakZvU0FRIiwiZmFtaWx5X25hbWUiLCJFeGFtcGxlIl0",
     "contents": [
-      "Uf4xzXofNkdFut7OP40GZQ",
+      "U1iQzUkXz_O7tS6HjFoSAQ",
       "family_name",
       "Example"
     ]
   },
   {
-    "digest": "M2rf1-rMur9-BPmWw-z2CWjQ-I3lABBAnbzq_rdDGBA",
-    "disclosure": "WyJwZmpCMzZaTEUzN1Y1eXNBdEhQMy1BIiwiaWRlbnRpZmllciIsW3siaGFzaGVkIjpmYWxzZSwiaWRlbnRpdHlUeXBlIjoibmFtZSIsImlkZW50aXR5SGFzaCI6IkFsZXhhbmRyYSBNYXJpYSBFeGFtcGxlIn1dXQ",
+    "digest": "IY60aASqb2fGxLeRGZRz0htOJVfEM02S2ekFLVJddkw",
+    "disclosure": "WyI3YzFxaGtaX09XekJVMEZlWkpPZXZnIiwiaWRlbnRpZmllciIsW3siaGFzaGVkIjpmYWxzZSwiaWRlbnRpdHlUeXBlIjoibmFtZSIsImlkZW50aXR5SGFzaCI6IkFsZXhhbmRyYSBNYXJpYSBFeGFtcGxlIn1dXQ",
     "contents": [
-      "pfjB36ZLE37V5ysAtHP3-A",
+      "7c1qhkZ_OWzBU0FeZJOevg",
       "identifier",
       [
         {
@@ -60,28 +60,28 @@
     ]
   },
   {
-    "digest": "UlAovWjzPkv7NE9QFV1-zt30ok_FerB7hh-44pT0McI",
-    "disclosure": "WyJDcXJ6WVY2NmhkOFZ3T1FGeU1uakV3IiwiY3JlZGVudGlhbE5hbWUiLCJCYWNoZWxvciBvZiBTY2llbmNlLCBFeGFtcGxlIFVuaXZlcnNpdHkiXQ",
+    "digest": "Ljj4IBGtfc0MfjC0sy3McwKnWXL5c2kv6qJaC_JC2I0",
+    "disclosure": "WyJhd2FUbC0wYVhrZUo4OWR1NXJpMFR3IiwiY3JlZGVudGlhbE5hbWUiLCJCYWNoZWxvciBvZiBTY2llbmNlLCBFeGFtcGxlIFVuaXZlcnNpdHkiXQ",
     "contents": [
-      "CqrzYV66hd8VwOQFyMnjEw",
+      "awaTl-0aXkeJ89du5ri0Tw",
       "credentialName",
       "Bachelor of Science, Example University"
     ]
   },
   {
-    "digest": "FzTZBXfTzmTlxtmLumwbD78thGp7pkVfDAoEvROv9r4",
-    "disclosure": "WyJWNW5HRXlfa0V5cW1rSUZldTlnQ2h3IiwiY3JlZGVudGlhbERlc2NyaXB0aW9uIiwiQmFjaGVsb3IncyBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSBmcm9tIEV4YW1wbGUgVW5pdmVyc2l0eS4iXQ",
+    "digest": "6-q8r1xfX-UYjtq3bIXQehcFYd6hkWkS3t76qcn2Svo",
+    "disclosure": "WyJqRGhLRWVRbVd3TlpQMzg0YTVZYXJBIiwiY3JlZGVudGlhbERlc2NyaXB0aW9uIiwiQmFjaGVsb3IncyBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSBmcm9tIEV4YW1wbGUgVW5pdmVyc2l0eS4iXQ",
     "contents": [
-      "V5nGEy_kEyqmkIFeu9gChw",
+      "jDhKEeQmWwNZP384a5YarA",
       "credentialDescription",
       "Bachelor's degree in computer science from Example University."
     ]
   },
   {
-    "digest": "T7e0NFfst18Z3IWE7L4qMHxTnH-eickf-h-wW2ZNypE",
-    "disclosure": "WyJubllEYkktTTJBNTUzcmxMOWZkdEJ3IiwiY3JlZGVudGlhbEltYWdlIix7ImlkIjoiaHR0cHM6Ly9iYWRnZXMuZXhhbXBsZS5jb20vaW1hZ2VzL2JhY2hlbG9yLWRlZ3JlZS5wbmciLCJjYXB0aW9uIjoiQmFjaGVsb3IncyBkZWdyZWUgYmFkZ2UifV0",
+    "digest": "h2Oyma7AgTOtmBgLTprJ_XiImfh0S7uLaEgpXigLcfI",
+    "disclosure": "WyI5YWJpZ2poVmt6cHRVZzRraU9MZW1nIiwiY3JlZGVudGlhbEltYWdlIix7ImlkIjoiaHR0cHM6Ly9iYWRnZXMuZXhhbXBsZS5jb20vaW1hZ2VzL2JhY2hlbG9yLWRlZ3JlZS5wbmciLCJjYXB0aW9uIjoiQmFjaGVsb3IncyBkZWdyZWUgYmFkZ2UifV0",
     "contents": [
-      "nnYDbI-M2A553rlL9fdtBw",
+      "9abigjhVkzptUg4kiOLemg",
       "credentialImage",
       {
         "id": "https://badges.example.com/images/bachelor-degree.png",
@@ -90,19 +90,19 @@
     ]
   },
   {
-    "digest": "3_0YeZp5thK7oBk9Vs_g1oMrH6ynDj8oSazuxke8RUk",
-    "disclosure": "WyI4cE1Rb29UZUd2T3BYOHFQYXR1bmVnIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
+    "digest": "O4PTVxZUTapjutUwWIdx8ozCcsM1D-CXHF9zN1YRZP0",
+    "disclosure": "WyJIWjlCTVgzUzFVQnB4S2F2RFBIa05BIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
     "contents": [
-      "8pMQooTeGvOpX8qPatuneg",
+      "HZ9BMX3S1UBpxKavDPHkNA",
       "awardedDate",
       "2026-06-12T00:00:00Z"
     ]
   },
   {
-    "digest": "9RWwICK7mhjRlUXSZFwy2t1tsjYHFgKVV8ftP2sUmro",
-    "disclosure": "WyJmcWhYeWJLS210MEZPWUdlUXJqc21nIiwiaXNzdWVyIix7ImlkIjoiaHR0cHM6Ly9iYWRnZXMuZXhhbXBsZS5jb20iLCJuYW1lIjoiRXhhbXBsZSBCYWRnZXMiLCJ1cmwiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbSJ9XQ",
+    "digest": "co2xfytpclhkdgvrmKU0X7JKYaBDFHtJvwJ1Qfae2qw",
+    "disclosure": "WyJxa1JZaFdpOWhtN05QRk1RVlJ1ZE93IiwiaXNzdWVyIix7ImlkIjoiaHR0cHM6Ly9iYWRnZXMuZXhhbXBsZS5jb20iLCJuYW1lIjoiRXhhbXBsZSBCYWRnZXMiLCJ1cmwiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbSJ9XQ",
     "contents": [
-      "fqhXybKKmt0FOYGeQrjsmg",
+      "qkRYhWi9hm7NPFMQVRudOw",
       "issuer",
       {
         "id": "https://badges.example.com",
@@ -112,18 +112,18 @@
     ]
   },
   {
-    "digest": "GLTQr8oTbMln3vYVjZgarJjle9dLctvtKOm3Q8P59Xc",
-    "disclosure": "WyJod2FUTkNYUEZ6amhHNHRrUnpDeTR3Iiwic291cmNlIix7ImlkIjoidXJuOm9pZDoxLjIuMjQ2LjU2Mi4xMC4wMDAwMDAwMDAwMiIsIm5hbWUiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJ1cmwiOiJodHRwczovL3VuaXZlcnNpdHkuZXhhbXBsZS5jb20iLCJvdGhlcklkZW50aWZpZXIiOlt7ImlkZW50aWZpZXIiOiIxLjIuMjQ2LjU2Mi4xMC4wMDAwMDAwMDAwMiIsImlkZW50aWZpZXJUeXBlIjoiaWRlbnRpZmllciJ9XX1d",
+    "digest": "s7wD5NI4UF381Rg_oFsikoMJ5qB7RL8oDrPsp-EXYro",
+    "disclosure": "WyJFdjJHZ0lZRlAxSmxDQ2s4eFNyU0xRIiwic291cmNlIix7ImlkIjoiaHR0cHM6Ly91bml2ZXJzaXR5LmV4YW1wbGUuY29tIiwibmFtZSI6IkV4YW1wbGUgVW5pdmVyc2l0eSIsInVybCI6Imh0dHBzOi8vdW5pdmVyc2l0eS5leGFtcGxlLmNvbSIsIm90aGVySWRlbnRpZmllciI6W3siaWRlbnRpZmllciI6IjAwMDQyIiwiaWRlbnRpZmllclR5cGUiOiJpZGVudGlmaWVyIn1dfV0",
     "contents": [
-      "hwaTNCXPFzjhG4tkRzCy4w",
+      "Ev2GgIYFP1JlCCk8xSrSLQ",
       "source",
       {
-        "id": "urn:oid:1.2.246.562.10.00000000002",
+        "id": "https://university.example.com",
         "name": "Example University",
         "url": "https://university.example.com",
         "otherIdentifier": [
           {
-            "identifier": "1.2.246.562.10.00000000002",
+            "identifier": "00042",
             "identifierType": "identifier"
           }
         ]
@@ -131,10 +131,10 @@
     ]
   },
   {
-    "digest": "_pS-hqUg743HfeWC6fT6_sQSrEgvXLvZmKbuxe13nLo",
-    "disclosure": "WyI5VG43TktFWW9QVkJUWGswMzdpN2VnIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifX1d",
+    "digest": "ELoedTM1GXZK-vzyGcbm-6okBZs1O76Ws58lMSt4X_U",
+    "disclosure": "WyJHZFFkXzVjaHRLTGhxOE82bXhuNEZBIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifX1d",
     "contents": [
-      "9Tn7NKEYoPVBTXk037i7eg",
+      "GdQd_5chtKLhq8O6mxn4FA",
       "achievement",
       {
         "id": "urn:uuid:a4e6c2b8-1d3f-4b5a-9c7e-6f8d0a2b4c19",
@@ -150,28 +150,28 @@
     ]
   },
   {
-    "digest": "GJ7yhzRScVy7q_Lcdp1prGnzxMoVugMgHI0Hbpcl3jE",
-    "disclosure": "WyJIZ29PZ0ZZMVNVcDNxOFBCQUQyMm1BIiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
+    "digest": "480sx3I077hu5ZC2wvFbWYCz05-hCc-HhIlRhgt7exw",
+    "disclosure": "WyJMcWpGMURpNUxQOFlPYVBhYVM3QTVBIiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
     "contents": [
-      "HgoOgFY1SUp3q8PBAD22mA",
+      "LqjF1Di5LP8YOaPaaS7A5A",
       "creditsEarned",
       180
     ]
   },
   {
-    "digest": "tFRP7OnTV-15q_8rdTYEZbALnZTl2x4yvueUIRMKCHc",
-    "disclosure": "WyJvS2lZV2tvSXhNa2dJOE9nMTRnbktBIiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
+    "digest": "xjtHJ6tD5s4BVfdWW86JjHNmCgLaZ6VHhPRQnP5mQvs",
+    "disclosure": "WyJXX2xSc0Q1eWFSOU8zMjlwUHo3Q3hBIiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
     "contents": [
-      "oKiYWkoIxMkgI8Og14gnKA",
+      "W_lRsD5yaR9O329pPz7CxA",
       "activityStartDate",
       "2023-09-01T00:00:00Z"
     ]
   },
   {
-    "digest": "Th3eeVk8-6mp4BxOt_NyCUAvnJtm7ISxOujc7cEIOXU",
-    "disclosure": "WyJNZWI3OEtGTDFvQ21BR1FWZmZEWl9RIiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
+    "digest": "eJz2yWXUuXIt_QwaZoR_vKCBZ44uzWLO9LTjcZ2Cy5E",
+    "disclosure": "WyI2cFA1UE43TDVKVTR3U0xIeURyUU53IiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
     "contents": [
-      "Meb78KFL1oCmAGQVffDZ_Q",
+      "6pP5PN7L5JU4wSLHyDrQNw",
       "activityEndDate",
       "2026-05-31T00:00:00Z"
     ]

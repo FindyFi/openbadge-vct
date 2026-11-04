@@ -5,8 +5,8 @@
       {
         "kty": "EC",
         "crv": "P-256",
-        "x": "qN98yq_dPmTk77xkrz1zYI2fx8xh9XduwVK3LemnGMI",
-        "y": "JrnobhztXHCUOIMF_BfRvBZ0tjkHRSQrVQsbzuk40_4",
+        "x": "iI2ZzagWnmf1aF2VMZhKqtufgju2-qtw6Td9gzZV45c",
+        "y": "kxfYFBi6gUza327TsJZ-bKxiHMOex_JNQYDIJiKoiRE",
         "kid": "badge-signing-key-1",
         "use": "sig",
         "alg": "ES256"

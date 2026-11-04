@@ -1,0 +1,23 @@
+{
+  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json",
+  "vct#integrity": "sha256-LCNGd4nH8InYuE9Pw3LFC3N75L6sBuH5XkLa8lcGVss=",
+  "iat": 1792476000,
+  "exp": 1819756799,
+  "sub": "urn:uuid:5b8e2f14-7c3a-4d9e-b1f6-0a2c4e6d8f13",
+  "given_name": "Alexandra Maria",
+  "family_name": "Example",
+  "birthdate": "2004-03-14",
+  "enrolment_status": "enrolled",
+  "institution_name": "Example University",
+  "institution_id": "https://university.example.com",
+  "institution_code": "00042",
+  "education_level": "6",
+  "education_level_name": "Bachelor's or equivalent level",
+  "education_type": "higher_education",
+  "education_type_name": "Higher education",
+  "programme": "Bachelor of Science in Computer Science",
+  "start_date": "2024-09-01",
+  "expiry_date": "2027-08-31",
+  "issuance_date": "2026-10-20",
+  "issuing_country": "FI"
+}
