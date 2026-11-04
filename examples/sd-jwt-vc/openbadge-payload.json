@@ -1,7 +1,8 @@
 {
   "iss": "https://badges.example.com",
   "iat": 1792108800,
-  "vct": "https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT",
+  "vct": "https://openbadge.digicredential.eu/credentials/v3/OpenBadgeVCT.json",
+  "vct#integrity": "sha256-T1j+SLe0gmZD9ExNTRDzOFPg/QcaOJf5XXeewwsbmZA=",
   "status": {
     "status_list": {
       "idx": 4182,
@@ -12,22 +13,27 @@
     "jwk": {
       "kty": "EC",
       "crv": "P-256",
-      "x": "7cLkadwb5Gn0xou17qtC-NjyZH6CAhmagJJ-f9dH5xE",
-      "y": "ntBo6qR6dUKieP-fvaBxVG3YrPJcu9zE_kbTT-q63yA"
+      "x": "J39FQcNL-fA-32yHPN4c1SAjW-72ZOLX53KF_qc8r7E",
+      "y": "q7H6DP6jWmipuQIUUDpTbW0Ai2SBrTAlSDk_VqrAT0k"
     }
   },
   "_sd": [
-    "6Jtlk-2-_XjAxr4b_2t6b4yJFqBM0c0WIqHrgbXG6CI",
-    "NDAfzKbcKz_9sKnotwM7wFIO5hI73HzA1nfaS15RRKc",
-    "P4rhIWMDswukDl1-Ofm2GiYPamIi5R-soWnIPU_1r3c",
-    "SO5G2R52nmEz1u9qLRjKBzABbflCJG3K-hFQ1ISOfuc",
-    "XN0OF1wyWGo58MJnagt5ATmn9yMTFZ4zaL0jIgC_HdA",
-    "XYSLCI18X5pcYYpkNNRGTmXDS-McgWEI7zUCubATutU",
-    "ZkBujZiux7Mfpv99jKJBvVLH_z6Lbug3G2qRaTOaxj8",
-    "h4Qkg53kd_S256o0IooeLqDp3yWobYTd5xMXy2ubVC4",
-    "iUcEHqgqPyg6SztCDeDnTLENh8zswmE3FsAHXhsHBHk",
-    "mz_8Sfg3GOBdjYJCHxW2sMJnhN8lgGUYLbuMRxRlNvc",
-    "zv6YcOos1pXTX6Iv0xoTJihq6T2wPVswf_iR86Jcfs0"
+    "-YhvLssdiUIeAxd724vhE41ZRL45FvD7rMeFJFgikC4",
+    "0JKIYIrOQHXjm-cnqUZwDgUBGNw7I5gTwJ0-NoadUBY",
+    "3_0YeZp5thK7oBk9Vs_g1oMrH6ynDj8oSazuxke8RUk",
+    "9RWwICK7mhjRlUXSZFwy2t1tsjYHFgKVV8ftP2sUmro",
+    "FzTZBXfTzmTlxtmLumwbD78thGp7pkVfDAoEvROv9r4",
+    "GJ7yhzRScVy7q_Lcdp1prGnzxMoVugMgHI0Hbpcl3jE",
+    "GLTQr8oTbMln3vYVjZgarJjle9dLctvtKOm3Q8P59Xc",
+    "M2rf1-rMur9-BPmWw-z2CWjQ-I3lABBAnbzq_rdDGBA",
+    "T7e0NFfst18Z3IWE7L4qMHxTnH-eickf-h-wW2ZNypE",
+    "Th3eeVk8-6mp4BxOt_NyCUAvnJtm7ISxOujc7cEIOXU",
+    "UjaJok4iA_LZ7A-yAFrkRB6CWaThxU4UWkJ1svL-TQM",
+    "UlAovWjzPkv7NE9QFV1-zt30ok_FerB7hh-44pT0McI",
+    "VQ99qKsYA-e76lIqf-SD-EP9a--9oefflihZgKycP7s",
+    "_pS-hqUg743HfeWC6fT6_sQSrEgvXLvZmKbuxe13nLo",
+    "lEgh8Hmix-n2Dq2QxiRe1zbRA83CQZmcKrI5LfwSHUA",
+    "tFRP7OnTV-15q_8rdTYEZbALnZTl2x4yvueUIRMKCHc"
   ],
   "_sd_alg": "sha-256"
 }

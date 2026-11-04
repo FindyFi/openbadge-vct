@@ -1,8 +1,8 @@
 {
   "iss": "https://badges.example.com",
   "iat": 1792476000,
-  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT",
-  "vct#integrity": "sha256-7Jmwf4t98ylr3XSaOLcU69ht4yGoZQ72kMxZ/5MGNWM=",
+  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json",
+  "vct#integrity": "sha256-DpT9ndE2I1dtNO/5fuLfqMTkg4hhwvwHpQWzmXk1WGs=",
   "exp": 1812229199,
   "enrolment_status": "enrolled",
   "education_level": "3",
@@ -17,19 +17,19 @@
     "jwk": {
       "kty": "EC",
       "crv": "P-256",
-      "x": "Z12jCP3dHoaAmSubuC621mvpRJEXmKnrOdaZCwbjwUw",
-      "y": "jIX_ks2xXAY3ztsoVGmz9G540EQjAznIty8aNcaGxHU"
+      "x": "lHXv-9wTgz5O4IGuXEUlZBrlll971xJk4FNbPwdlxxA",
+      "y": "-5W5tUb5_RJLoqXye_KjLbmjiHtVwBvas3Y5_7lBX4E"
     }
   },
   "_sd": [
-    "HjNuR4NHCxV-DKNN__YrSldmpZtK_vMvJleSJk4p4oQ",
-    "IKciEGN_qtyncaWfOyPy--ORy1J0ZV5K_dFzDuOLgn4",
-    "OlPQBjoeISfxZKIne4N7SKOgjPmqTVpzc-IW3YRRSrM",
-    "OsQ1zgojCRPxMwKi8TzuBFs2SMPK3oG_GhVVgG9hMc8",
-    "QsHFVYXktymQfAmT-yPW-FkTyIvMocNtj-pmC9L93zw",
-    "_yWxFwgYmtEn627vnSiU6ncoNubqM3izupM883gLX_o",
-    "iWumv5hlYbMBV3ZAwiUwYVlRpCOHxFj88L2CWzayRZA",
-    "t9A5SDqPIrOaTWwtDJYn9H3_TT0LNHvOE7rs0vjoyik"
+    "3ccy5a0-rKozdhwHR9L9czVuE8_phAlDEky6pbB2Hgs",
+    "9P11gk7_x8lz1TsMNXjOw0iUfl-yDM1M9JsoSSnbekY",
+    "ITy50k-kBNwSZbCnWpzDH2j1cofqgeuIaT-mLWFrjMc",
+    "Kb4vgNqfuh_TSxMDa5SPRFpWNOR8C10fvXDW0OMYo-I",
+    "PwJao8okJ-vBoeWdLGBBzdxb6oE0g7Op7XKiRUEZLuI",
+    "Uel4O8hD17Hh6JKBYjYD5x4a1xplgmEZPB24FglQ1C0",
+    "YUSFyazStoPLyRJaD2_6KjRLXxc_fZuFtGOrsg9f3Xw",
+    "vHYqvWf4k7AetiXDScTVDO7tHx-Cny4Na6ANxGg8Vag"
   ],
   "_sd_alg": "sha-256"
 }

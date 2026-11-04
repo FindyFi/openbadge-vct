@@ -1,72 +1,72 @@
 [
   {
-    "digest": "_yWxFwgYmtEn627vnSiU6ncoNubqM3izupM883gLX_o",
-    "disclosure": "WyJUd0EzRmxpZzNVb3RPb2NtUHdYd013Iiwic3ViIiwidXJuOm9pZDoxLjIuMjQ2LjU2Mi4yNC4wMDAwMDAwMDAwMSJd",
+    "digest": "YUSFyazStoPLyRJaD2_6KjRLXxc_fZuFtGOrsg9f3Xw",
+    "disclosure": "WyJRSUM5emVmUkhGb2xudFM1OE16TzZnIiwic3ViIiwidXJuOm9pZDoxLjIuMjQ2LjU2Mi4yNC4wMDAwMDAwMDAwMSJd",
     "contents": [
-      "TwA3Flig3UotOocmPwXwMw",
+      "QIC9zefRHFolntS58MzO6g",
       "sub",
       "urn:oid:1.2.246.562.24.00000000001"
     ]
   },
   {
-    "digest": "HjNuR4NHCxV-DKNN__YrSldmpZtK_vMvJleSJk4p4oQ",
-    "disclosure": "WyJEQmhCSXhwQ3NhMTNHTDdOTm83R1dnIiwiZ2l2ZW5fbmFtZSIsIlRlc3RpIE1hdHRpIl0",
+    "digest": "ITy50k-kBNwSZbCnWpzDH2j1cofqgeuIaT-mLWFrjMc",
+    "disclosure": "WyJqaGFLT1A2dzlBcklNLXVwRHE0el9nIiwiZ2l2ZW5fbmFtZSIsIlRlc3RpIE1hdHRpIl0",
     "contents": [
-      "DBhBIxpCsa13GL7NNo7GWg",
+      "jhaKOP6w9ArIM-upDq4z_g",
       "given_name",
       "Testi Matti"
     ]
   },
   {
-    "digest": "OsQ1zgojCRPxMwKi8TzuBFs2SMPK3oG_GhVVgG9hMc8",
-    "disclosure": "WyJqZUYyS0FqN3pPWm1XTHlPUHZQZUt3IiwiZmFtaWx5X25hbWUiLCJPcGlza2VsaWphIl0",
+    "digest": "vHYqvWf4k7AetiXDScTVDO7tHx-Cny4Na6ANxGg8Vag",
+    "disclosure": "WyItNHJlUm94NDVmNkpaWmtLdTU3Y2RBIiwiZmFtaWx5X25hbWUiLCJPcGlza2VsaWphIl0",
     "contents": [
-      "jeF2KAj7zOZmWLyOPvPeKw",
+      "-4reRox45f6JZZkKu57cdA",
       "family_name",
       "Opiskelija"
     ]
   },
   {
-    "digest": "QsHFVYXktymQfAmT-yPW-FkTyIvMocNtj-pmC9L93zw",
-    "disclosure": "WyJxRXNVekx6ejR6dUtEV04tSGRzd0hRIiwiYmlydGhkYXRlIiwiMjAwOC0wMy0xNCJd",
+    "digest": "PwJao8okJ-vBoeWdLGBBzdxb6oE0g7Op7XKiRUEZLuI",
+    "disclosure": "WyJiamlXclFaa2ZNcUxiWHQ3VTlCM2lnIiwiYmlydGhkYXRlIiwiMjAwOC0wMy0xNCJd",
     "contents": [
-      "qEsUzLzz4zuKDWN-HdswHQ",
+      "bjiWrQZkfMqLbXt7U9B3ig",
       "birthdate",
       "2008-03-14"
     ]
   },
   {
-    "digest": "iWumv5hlYbMBV3ZAwiUwYVlRpCOHxFj88L2CWzayRZA",
-    "disclosure": "WyJ1ZHRvbHJUTjVKYlhCRG1MZVc2bEJ3IiwiaW5zdGl0dXRpb25fbmFtZSIsIkVzaW1lcmtraWx1a2lvIl0",
+    "digest": "3ccy5a0-rKozdhwHR9L9czVuE8_phAlDEky6pbB2Hgs",
+    "disclosure": "WyJ6ZElTMzVuNW5SeGFJdVZnUHh3b3p3IiwiaW5zdGl0dXRpb25fbmFtZSIsIkVzaW1lcmtraWx1a2lvIl0",
     "contents": [
-      "udtolrTN5JbXBDmLeW6lBw",
+      "zdIS35n5nRxaIuVgPxwozw",
       "institution_name",
       "Esimerkkilukio"
     ]
   },
   {
-    "digest": "OlPQBjoeISfxZKIne4N7SKOgjPmqTVpzc-IW3YRRSrM",
-    "disclosure": "WyJRZnhSZTk2LVE2dktXM0F2cnJiRjZnIiwiaW5zdGl0dXRpb25faWQiLCJ1cm46b2lkOjEuMi4yNDYuNTYyLjEwLjAwMDAwMDAwMDAyIl0",
+    "digest": "Kb4vgNqfuh_TSxMDa5SPRFpWNOR8C10fvXDW0OMYo-I",
+    "disclosure": "WyIydzJnemFRUWtZQ0UwY0MyLWhxZXp3IiwiaW5zdGl0dXRpb25faWQiLCJ1cm46b2lkOjEuMi4yNDYuNTYyLjEwLjAwMDAwMDAwMDAyIl0",
     "contents": [
-      "QfxRe96-Q6vKW3AvrrbF6g",
+      "2w2gzaQQkYCE0cC2-hqezw",
       "institution_id",
       "urn:oid:1.2.246.562.10.00000000002"
     ]
   },
   {
-    "digest": "IKciEGN_qtyncaWfOyPy--ORy1J0ZV5K_dFzDuOLgn4",
-    "disclosure": "WyJ0TW50RHFFVkltQ1Zja0Zhdmt2SGV3IiwiaW5zdGl0dXRpb25fY29kZSIsIjAwMDAwIl0",
+    "digest": "Uel4O8hD17Hh6JKBYjYD5x4a1xplgmEZPB24FglQ1C0",
+    "disclosure": "WyJmNkdTVGgtd0lqSV9WbDZYR0xJUm1RIiwiaW5zdGl0dXRpb25fY29kZSIsIjAwMDAwIl0",
     "contents": [
-      "tMntDqEVImCVckFavkvHew",
+      "f6GSTh-wIjI_Vl6XGLIRmQ",
       "institution_code",
       "00000"
     ]
   },
   {
-    "digest": "t9A5SDqPIrOaTWwtDJYn9H3_TT0LNHvOE7rs0vjoyik",
-    "disclosure": "WyI0QllrWkNCME10a0Q5Qld1S0JCdVZnIiwicHJvZ3JhbW1lIiwiTHVraW9uIG9wcGltw6TDpHLDpCJd",
+    "digest": "9P11gk7_x8lz1TsMNXjOw0iUfl-yDM1M9JsoSSnbekY",
+    "disclosure": "WyJvc2FhN3RKMHAxaG1vRllIZGJoQmhBIiwicHJvZ3JhbW1lIiwiTHVraW9uIG9wcGltw6TDpHLDpCJd",
     "contents": [
-      "4BYkZCB0MtkD9BWuKBBuVg",
+      "osaa7tJ0p1hmoFYHdbhBhA",
       "programme",
       "Lukion oppimäärä"
     ]

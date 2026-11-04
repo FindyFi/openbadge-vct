@@ -1,78 +1,140 @@
 [
   {
-    "digest": "6Jtlk-2-_XjAxr4b_2t6b4yJFqBM0c0WIqHrgbXG6CI",
-    "disclosure": "WyJ3ejMtaTc2bWFSU0VGbEcwdk94Yi13IiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
+    "digest": "UjaJok4iA_LZ7A-yAFrkRB6CWaThxU4UWkJ1svL-TQM",
+    "disclosure": "WyJ5TmpST1UzeWN6VDU4Zk1MR3ItMlR3IiwianRpIiwidXJuOnV1aWQ6N2MxZDRlMmEtOWYzYi00YTZjLThlNWQtMmI3ZjBhOTEzYzQ4Il0",
     "contents": [
-      "wz3-i76maRSEFlG0vOxb-w",
+      "yNjROU3yczT58fMLGr-2Tw",
       "jti",
       "urn:uuid:7c1d4e2a-9f3b-4a6c-8e5d-2b7f0a913c48"
     ]
   },
   {
-    "digest": "ZkBujZiux7Mfpv99jKJBvVLH_z6Lbug3G2qRaTOaxj8",
-    "disclosure": "WyJ1V002UFdBS1NVRkZ2WEhPMUcwcG1nIiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
+    "digest": "lEgh8Hmix-n2Dq2QxiRe1zbRA83CQZmcKrI5LfwSHUA",
+    "disclosure": "WyJFdFJtLUdWSDdobWtMUThVaHFVRW9RIiwic3ViIiwidXJuOnV1aWQ6M2Y5YTJjN2UtNWIxZC00ZThmLWE2YzQtMGQyZTdiOWYxYTM1Il0",
     "contents": [
-      "uWM6PWAKSUFFvXHO1G0pmg",
+      "EtRm-GVH7hmkLQ8UhqUEoQ",
       "sub",
       "urn:uuid:3f9a2c7e-5b1d-4e8f-a6c4-0d2e7b9f1a35"
     ]
   },
   {
-    "digest": "mz_8Sfg3GOBdjYJCHxW2sMJnhN8lgGUYLbuMRxRlNvc",
-    "disclosure": "WyJTbEVFVUduMm5YWEd6eHdjSVZDM1VBIiwiaWRlbnRpZmllciIsW3siaGFzaGVkIjpmYWxzZSwiaWRlbnRpdHlUeXBlIjoibmFtZSIsImlkZW50aXR5SGFzaCI6IkFsZXggRXhhbXBsZSJ9XV0",
+    "digest": "0JKIYIrOQHXjm-cnqUZwDgUBGNw7I5gTwJ0-NoadUBY",
+    "disclosure": "WyJicEFXakNZNkZPenZRbE5WTTBLQW1BIiwibmFtZSIsIkFsZXhhbmRyYSBNYXJpYSBFeGFtcGxlIl0",
     "contents": [
-      "SlEEUGn2nXXGzxwcIVC3UA",
-      "identifier",
-      [
-        {
-          "hashed": false,
-          "identityType": "name",
-          "identityHash": "Alex Example"
-        }
-      ]
+      "bpAWjCY6FOzvQlNVM0KAmA",
+      "name",
+      "Alexandra Maria Example"
     ]
   },
   {
-    "digest": "iUcEHqgqPyg6SztCDeDnTLENh8zswmE3FsAHXhsHBHk",
-    "disclosure": "WyJJRnFsWU5mQmR3eklEa2NQNXVRamxRIiwiZ2l2ZW5fbmFtZSIsIkFsZXhhbmRyYSBNYXJpYSJd",
+    "digest": "-YhvLssdiUIeAxd724vhE41ZRL45FvD7rMeFJFgikC4",
+    "disclosure": "WyJHcWlQOE5Ud2hVMlQ3b1QyamUwbjZBIiwiZ2l2ZW5fbmFtZSIsIkFsZXhhbmRyYSBNYXJpYSJd",
     "contents": [
-      "IFqlYNfBdwzIDkcP5uQjlQ",
+      "GqiP8NTwhU2T7oT2je0n6A",
       "given_name",
       "Alexandra Maria"
     ]
   },
   {
-    "digest": "XN0OF1wyWGo58MJnagt5ATmn9yMTFZ4zaL0jIgC_HdA",
-    "disclosure": "WyI3MUhZRDJiZGJheHVicG9QRFc0ZHNBIiwiZmFtaWx5X25hbWUiLCJFeGFtcGxlIl0",
+    "digest": "VQ99qKsYA-e76lIqf-SD-EP9a--9oefflihZgKycP7s",
+    "disclosure": "WyJVZjR4elhvZk5rZEZ1dDdPUDQwR1pRIiwiZmFtaWx5X25hbWUiLCJFeGFtcGxlIl0",
     "contents": [
-      "71HYD2bdbaxubpoPDW4dsA",
+      "Uf4xzXofNkdFut7OP40GZQ",
       "family_name",
       "Example"
     ]
   },
   {
-    "digest": "h4Qkg53kd_S256o0IooeLqDp3yWobYTd5xMXy2ubVC4",
-    "disclosure": "WyJlU2tmNDBOS0MxdnYxNVpCZXd4RDFRIiwibmFtZSIsIkJhY2hlbG9yIG9mIFNjaWVuY2UgaW4gQ29tcHV0ZXIgU2NpZW5jZSJd",
+    "digest": "M2rf1-rMur9-BPmWw-z2CWjQ-I3lABBAnbzq_rdDGBA",
+    "disclosure": "WyJwZmpCMzZaTEUzN1Y1eXNBdEhQMy1BIiwiaWRlbnRpZmllciIsW3siaGFzaGVkIjpmYWxzZSwiaWRlbnRpdHlUeXBlIjoibmFtZSIsImlkZW50aXR5SGFzaCI6IkFsZXhhbmRyYSBNYXJpYSBFeGFtcGxlIn1dXQ",
     "contents": [
-      "eSkf40NKC1vv15ZBewxD1Q",
-      "name",
-      "Bachelor of Science in Computer Science"
+      "pfjB36ZLE37V5ysAtHP3-A",
+      "identifier",
+      [
+        {
+          "hashed": false,
+          "identityType": "name",
+          "identityHash": "Alexandra Maria Example"
+        }
+      ]
     ]
   },
   {
-    "digest": "SO5G2R52nmEz1u9qLRjKBzABbflCJG3K-hFQ1ISOfuc",
-    "disclosure": "WyIwTmhZT1hQN0dEenU5TjhvYVlsclBnIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
+    "digest": "UlAovWjzPkv7NE9QFV1-zt30ok_FerB7hh-44pT0McI",
+    "disclosure": "WyJDcXJ6WVY2NmhkOFZ3T1FGeU1uakV3IiwiY3JlZGVudGlhbE5hbWUiLCJCYWNoZWxvciBvZiBTY2llbmNlLCBFeGFtcGxlIFVuaXZlcnNpdHkiXQ",
     "contents": [
-      "0NhYOXP7GDzu9N8oaYlrPg",
+      "CqrzYV66hd8VwOQFyMnjEw",
+      "credentialName",
+      "Bachelor of Science, Example University"
+    ]
+  },
+  {
+    "digest": "FzTZBXfTzmTlxtmLumwbD78thGp7pkVfDAoEvROv9r4",
+    "disclosure": "WyJWNW5HRXlfa0V5cW1rSUZldTlnQ2h3IiwiY3JlZGVudGlhbERlc2NyaXB0aW9uIiwiQmFjaGVsb3IncyBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSBmcm9tIEV4YW1wbGUgVW5pdmVyc2l0eS4iXQ",
+    "contents": [
+      "V5nGEy_kEyqmkIFeu9gChw",
+      "credentialDescription",
+      "Bachelor's degree in computer science from Example University."
+    ]
+  },
+  {
+    "digest": "T7e0NFfst18Z3IWE7L4qMHxTnH-eickf-h-wW2ZNypE",
+    "disclosure": "WyJubllEYkktTTJBNTUzcmxMOWZkdEJ3IiwiY3JlZGVudGlhbEltYWdlIix7ImlkIjoiaHR0cHM6Ly9iYWRnZXMuZXhhbXBsZS5jb20vaW1hZ2VzL2JhY2hlbG9yLWRlZ3JlZS5wbmciLCJjYXB0aW9uIjoiQmFjaGVsb3IncyBkZWdyZWUgYmFkZ2UifV0",
+    "contents": [
+      "nnYDbI-M2A553rlL9fdtBw",
+      "credentialImage",
+      {
+        "id": "https://badges.example.com/images/bachelor-degree.png",
+        "caption": "Bachelor's degree badge"
+      }
+    ]
+  },
+  {
+    "digest": "3_0YeZp5thK7oBk9Vs_g1oMrH6ynDj8oSazuxke8RUk",
+    "disclosure": "WyI4cE1Rb29UZUd2T3BYOHFQYXR1bmVnIiwiYXdhcmRlZERhdGUiLCIyMDI2LTA2LTEyVDAwOjAwOjAwWiJd",
+    "contents": [
+      "8pMQooTeGvOpX8qPatuneg",
       "awardedDate",
       "2026-06-12T00:00:00Z"
     ]
   },
   {
-    "digest": "XYSLCI18X5pcYYpkNNRGTmXDS-McgWEI7zUCubATutU",
-    "disclosure": "WyJkOW9EemJUY05EZXJ2NFFGejUzRHpBIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifSwiaW1hZ2UiOnsiaWQiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbS9pbWFnZXMvYnNjLWNvbXB1dGVyLXNjaWVuY2UucG5nIiwiY2FwdGlvbiI6IkJhY2hlbG9yIG9mIFNjaWVuY2UgYmFkZ2UifSwiY3JlYXRvciI6eyJpZCI6InVybjp1dWlkOjVlN2I5ZDFmLTNhMmMtNGU2Yi04ZDBmLTFjM2E1ZTdiOWQyNCIsIm5hbWUiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJ1cmwiOiJodHRwczovL3VuaXZlcnNpdHkuZXhhbXBsZS5jb20ifX1d",
+    "digest": "9RWwICK7mhjRlUXSZFwy2t1tsjYHFgKVV8ftP2sUmro",
+    "disclosure": "WyJmcWhYeWJLS210MEZPWUdlUXJqc21nIiwiaXNzdWVyIix7ImlkIjoiaHR0cHM6Ly9iYWRnZXMuZXhhbXBsZS5jb20iLCJuYW1lIjoiRXhhbXBsZSBCYWRnZXMiLCJ1cmwiOiJodHRwczovL2JhZGdlcy5leGFtcGxlLmNvbSJ9XQ",
     "contents": [
-      "d9oDzbTcNDerv4QFz53DzA",
+      "fqhXybKKmt0FOYGeQrjsmg",
+      "issuer",
+      {
+        "id": "https://badges.example.com",
+        "name": "Example Badges",
+        "url": "https://badges.example.com"
+      }
+    ]
+  },
+  {
+    "digest": "GLTQr8oTbMln3vYVjZgarJjle9dLctvtKOm3Q8P59Xc",
+    "disclosure": "WyJod2FUTkNYUEZ6amhHNHRrUnpDeTR3Iiwic291cmNlIix7ImlkIjoidXJuOm9pZDoxLjIuMjQ2LjU2Mi4xMC4wMDAwMDAwMDAwMiIsIm5hbWUiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJ1cmwiOiJodHRwczovL3VuaXZlcnNpdHkuZXhhbXBsZS5jb20iLCJvdGhlcklkZW50aWZpZXIiOlt7ImlkZW50aWZpZXIiOiIxLjIuMjQ2LjU2Mi4xMC4wMDAwMDAwMDAwMiIsImlkZW50aWZpZXJUeXBlIjoiaWRlbnRpZmllciJ9XX1d",
+    "contents": [
+      "hwaTNCXPFzjhG4tkRzCy4w",
+      "source",
+      {
+        "id": "urn:oid:1.2.246.562.10.00000000002",
+        "name": "Example University",
+        "url": "https://university.example.com",
+        "otherIdentifier": [
+          {
+            "identifier": "1.2.246.562.10.00000000002",
+            "identifierType": "identifier"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "digest": "_pS-hqUg743HfeWC6fT6_sQSrEgvXLvZmKbuxe13nLo",
+    "disclosure": "WyI5VG43TktFWW9QVkJUWGswMzdpN2VnIiwiYWNoaWV2ZW1lbnQiLHsiaWQiOiJ1cm46dXVpZDphNGU2YzJiOC0xZDNmLTRiNWEtOWM3ZS02ZjhkMGEyYjRjMTkiLCJhY2hpZXZlbWVudFR5cGUiOiJCYWNoZWxvckRlZ3JlZSIsIm5hbWUiOiJCYWNoZWxvciBvZiBTY2llbmNlIiwiZGVzY3JpcHRpb24iOiJGaXJzdC1jeWNsZSBkZWdyZWUgaW4gY29tcHV0ZXIgc2NpZW5jZSAoMTgwIEVDVFMgY3JlZGl0cykuIiwiZmllbGRPZlN0dWR5IjoiQ29tcHV0ZXIgU2NpZW5jZSIsImNyZWRpdHNBdmFpbGFibGUiOjE4MCwiY3JpdGVyaWEiOnsibmFycmF0aXZlIjoiQ29tcGxldGUgMTgwIEVDVFMgY3JlZGl0cyBvZiBzdHVkaWVzLCBpbmNsdWRpbmcgYSBiYWNoZWxvcidzIHRoZXNpcy4ifX1d",
+    "contents": [
+      "9Tn7NKEYoPVBTXk037i7eg",
       "achievement",
       {
         "id": "urn:uuid:a4e6c2b8-1d3f-4b5a-9c7e-6f8d0a2b4c19",
@@ -83,42 +145,33 @@
         "creditsAvailable": 180,
         "criteria": {
           "narrative": "Complete 180 ECTS credits of studies, including a bachelor's thesis."
-        },
-        "image": {
-          "id": "https://badges.example.com/images/bsc-computer-science.png",
-          "caption": "Bachelor of Science badge"
-        },
-        "creator": {
-          "id": "urn:uuid:5e7b9d1f-3a2c-4e6b-8d0f-1c3a5e7b9d24",
-          "name": "Example University",
-          "url": "https://university.example.com"
         }
       }
     ]
   },
   {
-    "digest": "zv6YcOos1pXTX6Iv0xoTJihq6T2wPVswf_iR86Jcfs0",
-    "disclosure": "WyJFTmp4WXQ2ZjQxRDlzeGdhYkhva2ZBIiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
+    "digest": "GJ7yhzRScVy7q_Lcdp1prGnzxMoVugMgHI0Hbpcl3jE",
+    "disclosure": "WyJIZ29PZ0ZZMVNVcDNxOFBCQUQyMm1BIiwiY3JlZGl0c0Vhcm5lZCIsMTgwXQ",
     "contents": [
-      "ENjxYt6f41D9sxgabHokfA",
+      "HgoOgFY1SUp3q8PBAD22mA",
       "creditsEarned",
       180
     ]
   },
   {
-    "digest": "NDAfzKbcKz_9sKnotwM7wFIO5hI73HzA1nfaS15RRKc",
-    "disclosure": "WyIzRElXYVdhWlg4UkdfcUxBck1tcWp3IiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
+    "digest": "tFRP7OnTV-15q_8rdTYEZbALnZTl2x4yvueUIRMKCHc",
+    "disclosure": "WyJvS2lZV2tvSXhNa2dJOE9nMTRnbktBIiwiYWN0aXZpdHlTdGFydERhdGUiLCIyMDIzLTA5LTAxVDAwOjAwOjAwWiJd",
     "contents": [
-      "3DIWaWaZX8RG_qLArMmqjw",
+      "oKiYWkoIxMkgI8Og14gnKA",
       "activityStartDate",
       "2023-09-01T00:00:00Z"
     ]
   },
   {
-    "digest": "P4rhIWMDswukDl1-Ofm2GiYPamIi5R-soWnIPU_1r3c",
-    "disclosure": "WyJ1bzMyNDQ5Rmg2ZllldkF2ZTNOVVJRIiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
+    "digest": "Th3eeVk8-6mp4BxOt_NyCUAvnJtm7ISxOujc7cEIOXU",
+    "disclosure": "WyJNZWI3OEtGTDFvQ21BR1FWZmZEWl9RIiwiYWN0aXZpdHlFbmREYXRlIiwiMjAyNi0wNS0zMVQwMDowMDowMFoiXQ",
     "contents": [
-      "uo32449Fh6fYevAve3NURQ",
+      "Meb78KFL1oCmAGQVffDZ_Q",
       "activityEndDate",
       "2026-05-31T00:00:00Z"
     ]
