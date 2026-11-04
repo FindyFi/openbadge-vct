@@ -1,6 +1,6 @@
 {
-  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT",
-  "vct#integrity": "sha256-7Jmwf4t98ylr3XSaOLcU69ht4yGoZQ72kMxZ/5MGNWM=",
+  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json",
+  "vct#integrity": "sha256-DpT9ndE2I1dtNO/5fuLfqMTkg4hhwvwHpQWzmXk1WGs=",
   "iat": 1792476000,
   "exp": 1812229199,
   "sub": "urn:oid:1.2.246.562.24.00000000001",

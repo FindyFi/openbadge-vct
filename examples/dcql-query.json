@@ -4,12 +4,12 @@
       "id": "badge",
       "format": "dc+sd-jwt",
       "meta": {
-        "vct_values": ["https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT"]
+        "vct_values": ["https://openbadge.digicredential.eu/credentials/v3/OpenBadgeVCT.json"]
       },
       "claims": [
         { "path": ["achievement", "name"] },
         { "path": ["achievement", "achievementType"], "values": ["BachelorDegree"] },
-        { "path": ["achievement", "creator", "name"] },
+        { "path": ["source", "name"] },
         { "path": ["awardedDate"] }
       ]
     }

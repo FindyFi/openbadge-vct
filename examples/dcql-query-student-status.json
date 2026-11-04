@@ -4,7 +4,7 @@
       "id": "student_status",
       "format": "dc+sd-jwt",
       "meta": {
-        "vct_values": ["https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT"]
+        "vct_values": ["https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json"]
       },
       "claims": [
         { "path": ["enrolment_status"], "values": ["enrolled"] },

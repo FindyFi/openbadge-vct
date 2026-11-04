@@ -33,7 +33,9 @@ jobs:
         # and the README's {{placeholders}} must survive the build.
         run: |
           status=0
-          for f in index.html credentials/v2/OpenBadgeVCT credentials/student-status/v1/StudentStatusVCT examples/dcql-query.json; do
+          for f in index.html credentials/v2/OpenBadgeVCT credentials/v3/OpenBadgeVCT.json \
+              credentials/student-status/v1/StudentStatusVCT credentials/student-status/v2/StudentStatusVCT.json \
+              examples/dcql-query.json; do
             [ -e "_site/$f" ] || { echo "::error::_site/$f is missing"; status=1; }
           done
           grep -q '{{achievement_name}}' _site/index.html || { echo "::error::Placeholders were substituted"; status=1; }

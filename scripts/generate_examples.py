@@ -71,7 +71,10 @@ def write_json(path: Path, obj) -> None:
 
 def never_disclosable(vct: str) -> set:
     """Top-level claims that the type metadata at vct marks "sd": "never"."""
-    metadata = json.loads((ROOT / (vct[len(SITE):] + ".json")).read_text())
+    path = vct[len(SITE):]
+    if not path.endswith(".json"):  # v1 and v2 URLs have no extension
+        path += ".json"
+    metadata = json.loads((ROOT / path).read_text())
     return {
         c["path"][0] for c in metadata.get("claims", [])
         if c.get("sd") == "never" and len(c["path"]) == 1
