@@ -8,7 +8,7 @@
       },
       "claims": [
         { "path": ["enrolment_status"], "values": ["enrolled"] },
-        { "path": ["education_level"], "values": ["3"] },
+        { "path": ["education_level"], "values": ["6"] },
         { "path": ["expiry_date"] }
       ]
     }

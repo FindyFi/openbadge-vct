@@ -2,34 +2,34 @@
   "iss": "https://badges.example.com",
   "iat": 1792476000,
   "vct": "https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json",
-  "vct#integrity": "sha256-DpT9ndE2I1dtNO/5fuLfqMTkg4hhwvwHpQWzmXk1WGs=",
-  "exp": 1812229199,
+  "vct#integrity": "sha256-LCNGd4nH8InYuE9Pw3LFC3N75L6sBuH5XkLa8lcGVss=",
+  "exp": 1819756799,
   "enrolment_status": "enrolled",
-  "education_level": "3",
-  "education_level_name": "Toinen aste",
-  "education_type": "lukiokoulutus",
-  "education_type_name": "Lukiokoulutus",
-  "start_date": "2024-08-08",
-  "expiry_date": "2027-06-05",
+  "education_level": "6",
+  "education_level_name": "Bachelor's or equivalent level",
+  "education_type": "higher_education",
+  "education_type_name": "Higher education",
+  "start_date": "2024-09-01",
+  "expiry_date": "2027-08-31",
   "issuance_date": "2026-10-20",
   "issuing_country": "FI",
   "cnf": {
     "jwk": {
       "kty": "EC",
       "crv": "P-256",
-      "x": "lHXv-9wTgz5O4IGuXEUlZBrlll971xJk4FNbPwdlxxA",
-      "y": "-5W5tUb5_RJLoqXye_KjLbmjiHtVwBvas3Y5_7lBX4E"
+      "x": "ul5qNFGGnd5Ml3l8qHNMNxFemJjT9gvGqnGzQZfsO3Q",
+      "y": "mGhSZQZwecv7rk8oNGjeiPvTz0AJb-88J6fL2U0kN6A"
     }
   },
   "_sd": [
-    "3ccy5a0-rKozdhwHR9L9czVuE8_phAlDEky6pbB2Hgs",
-    "9P11gk7_x8lz1TsMNXjOw0iUfl-yDM1M9JsoSSnbekY",
-    "ITy50k-kBNwSZbCnWpzDH2j1cofqgeuIaT-mLWFrjMc",
-    "Kb4vgNqfuh_TSxMDa5SPRFpWNOR8C10fvXDW0OMYo-I",
-    "PwJao8okJ-vBoeWdLGBBzdxb6oE0g7Op7XKiRUEZLuI",
-    "Uel4O8hD17Hh6JKBYjYD5x4a1xplgmEZPB24FglQ1C0",
-    "YUSFyazStoPLyRJaD2_6KjRLXxc_fZuFtGOrsg9f3Xw",
-    "vHYqvWf4k7AetiXDScTVDO7tHx-Cny4Na6ANxGg8Vag"
+    "1HjtHEIE_ZGmgISCmGEH-BcQCy9VUASz-r42UWMGHTk",
+    "4pI_Cu6GHeeKffip_mapGuQ_eCxaM8ZKNQHr8ROkZSI",
+    "5L9kkfB7pIa3en8A9AhOO_xKtG_5ovunGrB_zrMCg3A",
+    "8e28LUpWnVHhCzBlNDcdv9QzUSHkGEjDxLnDp2eb5ds",
+    "ZWG6oEjVxJRuMEaq2_exLKZiL1rC2v73RDoM6nnJbd4",
+    "e4-3Zn3lv8MO3o47aGOk8ky6-8kiXdotHJaEz64FwqY",
+    "kgoABWusioG26NPQGwyol9Mt3an0wieLP0ZirU4fHr8",
+    "wl2viuBNoqehztnUlEE-USCwfJ21QlqNCitdOq8up6k"
   ],
   "_sd_alg": "sha-256"
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the signed SD-JWT VC example files in examples/sd-jwt-vc/.
 
-For each example <name> (openbadge, student-status), reads
+For each example <name> (openbadge, student-status, student-status-koski), reads
 examples/sd-jwt-vc/<name>-claims.json (the credential as flat claims),
 makes the top-level claims selectively disclosable, signs the result with
 a fresh ES256 issuer key and writes:
@@ -37,7 +37,7 @@ IAT = 1792108800  # 2026-10-16T00:00:00Z
 # Claims that stay visible: needed to validate or process the credential.
 ALWAYS_VISIBLE = {"iss", "iat", "nbf", "exp", "vct", "vct#integrity", "cnf", "status"}
 SITE = "https://openbadge.digicredential.eu/"
-EXAMPLES = ["openbadge", "student-status"]
+EXAMPLES = ["openbadge", "student-status", "student-status-koski"]
 
 
 def b64url(data: bytes) -> str:

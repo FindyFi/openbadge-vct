@@ -1,0 +1,35 @@
+{
+  "iss": "https://badges.example.com",
+  "iat": 1792476000,
+  "vct": "https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json",
+  "vct#integrity": "sha256-LCNGd4nH8InYuE9Pw3LFC3N75L6sBuH5XkLa8lcGVss=",
+  "exp": 1812229199,
+  "enrolment_status": "enrolled",
+  "education_level": "3",
+  "education_level_name": "Toinen aste",
+  "education_type": "lukiokoulutus",
+  "education_type_name": "Lukiokoulutus",
+  "start_date": "2024-08-08",
+  "expiry_date": "2027-06-05",
+  "issuance_date": "2026-10-20",
+  "issuing_country": "FI",
+  "cnf": {
+    "jwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "nwW3AHPxF9-rk_BPwBDQb77MmQIe4QhEfAC7gik3YNE",
+      "y": "Cdu-9pLdMbFk3I8t7Q-m86g4AYoGsPholrM9LpU25x8"
+    }
+  },
+  "_sd": [
+    "0QBQzTTTCQ-m9FvhO01FUyXq9x8kR01wNoa3uz5Vcl4",
+    "Elnvcl8hiAPmW9AKGEJFSfmT7q4qwGLBh2kRqfgBvJ8",
+    "Ia5aBI88Njdavc_lXX3sTT_vS7X1vnPMEpDmYKNB0oE",
+    "K9efdARh_Qau9P93gyJOKn2uRVcjuO0R6-f26ZWNZEs",
+    "Krhzsj31mCK0-rAgrjnAQyYQLkmpgW-XMSrFVNasslU",
+    "NTqxFPHsRFXcPpCoSzK3hP7fG9JP_FLtrpZ-Hy9a1nA",
+    "OX9g0mtN39DizckMaOElXyro72URxyT6ZHmrLrZapP4",
+    "h57atEgfGevvm9WCNICOWn07fF4i2dqWoEc0BONnv0E"
+  ],
+  "_sd_alg": "sha-256"
+}

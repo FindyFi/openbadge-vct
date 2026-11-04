@@ -8,7 +8,7 @@ https://openbadge.digicredential.eu/credentials/v3/OpenBadgeVCT.json
 
 Wallets fetch the type metadata from that URL. It gives the credential's name and colours, labels for the claims in English, Finnish, German, Spanish, French, Dutch and Swedish, and an [SVG card template](#card-template). It replaces [v1 and v2](#versions), which stay valid for credentials already issued.
 
-The repository also publishes a separate type for a [student status](#student-status) (Opiskelijatodiste): proof that someone is enrolled at a Finnish educational institution.
+The repository also publishes a separate type for a [student status](#student-status): proof that someone is enrolled at an educational institution.
 
 ## Issuing a badge
 
@@ -103,11 +103,11 @@ All of the example files are in [`examples/`](examples/). The badge, written as 
     "url": "https://badges.example.com"
   },
   "source": {
-    "id": "urn:oid:1.2.246.562.10.00000000002",
+    "id": "https://university.example.com",
     "name": "Example University",
     "url": "https://university.example.com",
     "otherIdentifier": [
-      { "identifier": "1.2.246.562.10.00000000002", "identifierType": "identifier" }
+      { "identifier": "00042", "identifierType": "identifier" }
     ]
   },
   "achievement": {
@@ -151,7 +151,7 @@ The JWT payload ([`openbadge-payload.json`](examples/sd-jwt-vc/openbadge-payload
   "cnf": {
     "jwk": { "kty": "EC", "crv": "P-256", "x": "…", "y": "…" }
   },
-  "_sd": ["-YhvLssdiUIe…", "0JKIYIrOQHXj…", "…"],
+  "_sd": ["480sx3I077hu…", "6-q8r1xfX-UY…", "…"],
   "_sd_alg": "sha-256"
 }
 ```
@@ -159,13 +159,13 @@ The JWT payload ([`openbadge-payload.json`](examples/sd-jwt-vc/openbadge-payload
 Each disclosure ([`openbadge-disclosures.json`](examples/sd-jwt-vc/openbadge-disclosures.json)) is a base64url-encoded `[salt, name, value]` array:
 
 ```json
-["9Tn7NKEYoPVBTXk037i7eg", "achievement", { "id": "urn:uuid:a4e6c2b8-…", "achievementType": "BachelorDegree", … }]
+["GdQd_5chtKLhq8O6mxn4FA", "achievement", { "id": "urn:uuid:a4e6c2b8-…", "achievementType": "BachelorDegree", … }]
 ```
 
 The issued credential, [`openbadge.sd-jwt`](examples/sd-jwt-vc/openbadge.sd-jwt), is the signed JWT followed by the disclosures, each one after a `~`:
 
 ```text
-eyJhbGciOiJFUzI1NiIsInR5cCI6ImRjK3NkLWp3dCIsImtpZCI6ImJhZGdlLXNpZ25pbmcta2V5LTEifQ.eyJpc3Mi…~WyJ5TmpST1Uz…~…~
+eyJhbGciOiJFUzI1NiIsInR5cCI6ImRjK3NkLWp3dCIsImtpZCI6ImJhZGdlLXNpZ25pbmcta2V5LTEifQ.eyJpc3Mi…~WyJobkV3X3Y1…~…~
 ```
 
 You can paste it into [sdjwt.info](https://www.sdjwt.info/) to decode it.
@@ -242,30 +242,30 @@ Verifiers can ask for a badge over [OpenID4VP](https://openid.net/specs/openid-4
 
 ## Student status
 
-A student status ("Opiskelijatodiste") says that the holder is enrolled as a student according to the Finnish national study records (Koski). It is a type of its own, not an Open Badge, with flat claims in the style of the [EU PID](https://github.com/eu-digital-identity-wallet/eudi-doc-attestation-rulebooks-catalog), so a verifier such as a shop giving a student discount can ask for exactly what it needs:
+A student status says that the holder is enrolled as a student at an educational institution, according to the issuer's study records. The issuer can be the institution itself or a service that reads a study register. It is a type of its own, not an Open Badge, with flat claims in the style of the [EU PID](https://github.com/eu-digital-identity-wallet/eudi-doc-attestation-rulebooks-catalog), so a verifier such as a shop giving a student discount can ask for exactly what it needs:
 
 ```text
 https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json
 ```
 
-The type metadata gives the name and description in the same seven languages, labels for every claim, hot pink and navy colours, and a [card template](templates/svg/StudentStatus_v1.svg). The `sd` column is the type metadata's `sd`: `allowed` claims can be selectively disclosed, `never` claims are always shown. A verifier can then check that the holder is enrolled at the second level until June 2027 without learning who they are or where they study.
+The type metadata gives the name and description in the same seven languages, labels for every claim, hot pink and navy colours, and a [card template](templates/svg/StudentStatus_v1.svg). The `sd` column is the type metadata's `sd`: `allowed` claims can be selectively disclosed, `never` claims are always shown. A verifier can then check that the holder is enrolled at bachelor's level until August 2027 without learning who they are or where they study.
 
 | Claim | Example | `sd` |
 | --- | --- | --- |
-| `sub` | `urn:oid:1.2.246.562.24.00000000001` (learner number) | `allowed` |
-| `given_name`, `family_name` | `Testi Matti`, `Opiskelija` | `allowed` |
-| `birthdate` | `2008-03-14` | `allowed` |
+| `sub` | `urn:uuid:5b8e2f14-7c3a-4d9e-b1f6-0a2c4e6d8f13` (the student's identifier) | `allowed` |
+| `given_name`, `family_name` | `Alexandra Maria`, `Example` | `allowed` |
+| `birthdate` | `2004-03-14` | `allowed` |
 | `enrolment_status` | `enrolled`, the only value (mandatory) | `never` |
-| `institution_name` | `Esimerkkilukio` (mandatory) | `allowed` |
-| `institution_id` | `urn:oid:1.2.246.562.10.00000000002` (Koski organisation oid) | `allowed` |
-| `institution_code` | `00000` (Statistics Finland's school number) | `allowed` |
-| `education_level`, `education_level_name` | `3`, `Toinen aste` (Statistics Finland level of education) | `never` |
-| `education_type`, `education_type_name` | `lukiokoulutus`, `Lukiokoulutus` | `never` |
-| `programme` | `Lukion oppimäärä` | `allowed` |
-| `start_date` | `2024-08-08` | `never` |
-| `expiry_date` | `2027-06-05` (mandatory) | `never` |
+| `institution_name` | `Example University` (mandatory) | `allowed` |
+| `institution_id` | `https://university.example.com` (a URL, URN or other identifier of the institution) | `allowed` |
+| `institution_code` | `00042` (the institution's number in a national register) | `allowed` |
+| `education_level`, `education_level_name` | `6`, `Bachelor's or equivalent level` (here [ISCED 2011](https://uis.unesco.org/en/topic/international-standard-classification-education-isced); a national classification also works) | `never` |
+| `education_type`, `education_type_name` | `higher_education`, `Higher education` | `never` |
+| `programme` | `Bachelor of Science in Computer Science` | `allowed` |
+| `start_date` | `2024-09-01` | `never` |
+| `expiry_date` | `2027-08-31` (mandatory) | `never` |
 | `issuance_date` | `2026-10-20`, the date the status was checked (mandatory) | `never` |
-| `issuing_country` | `FI` | `never` |
+| `issuing_country` | `FI` (ISO 3166-1 alpha-2) | `never` |
 
 Leave out a claim the record doesn't have. `iss`, `iat`, `exp`, `cnf` and `vct` are visible as usual. `expiry_date` and `issuance_date` repeat `exp` and `iat` as dates, because wallets show JWT times poorly and a card can only show claims; `exp` is the one that counts. `status` is the SD-JWT VC claim for a status list, so the enrolment is `enrolment_status`.
 
@@ -284,7 +284,7 @@ Issue it like a badge: sign the claims as a `dc+sd-jwt` with the `vct` above, an
 
 ## Regenerating the examples
 
-`scripts/generate_examples.py` signs `openbadge-claims.json` and `student-status-claims.json` with a new ES256 key and rewrites the other files in `examples/`. The claims that the type metadata marks `"sd": "never"` stay visible; the others become disclosures. It needs `pip install cryptography`.
+`scripts/generate_examples.py` signs each `*-claims.json` in `examples/sd-jwt-vc/` with a new ES256 key and rewrites the other files in `examples/`. The claims that the type metadata marks `"sd": "never"` stay visible; the others become disclosures. It needs `pip install cryptography`.
 
 ```sh
 python3 scripts/generate_examples.py
@@ -296,19 +296,10 @@ A published version doesn't change. Changes are published as a new version under
 
 | Version | `vct` | Changes |
 | --- | --- | --- |
-| v3 | `https://openbadge.digicredential.eu/credentials/v3/OpenBadgeVCT.json` | Not compatible with v2: see below. |
+| v3 | `https://openbadge.digicredential.eu/credentials/v3/OpenBadgeVCT.json` | The holder's full name is `name`, and the credential's name, description and image are `credentialName`, `credentialDescription` and `credentialImage`. New `issuer` and `source` claims. The card shows `source.name` and no badge image. `achievement` is mandatory. Served as `application/json`. |
 | v2 | `https://openbadge.digicredential.eu/credentials/v2/OpenBadgeVCT` | Labels for `identifier`, `identifier[].identityHash`, `given_name` and `family_name`. Otherwise the same as v1, including the card template. |
 | v1 | `https://openbadge.digicredential.eu/credentials/v1/OpenBadgeVCT` | First version. Still valid for credentials issued with it. |
-| Student status v2 | `https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json` | Served as `application/json`. Otherwise the same as v1, including the card template. |
+| Student status v2 | `https://openbadge.digicredential.eu/credentials/student-status/v2/StudentStatusVCT.json` | For any issuer: the descriptions don't name a national register, and the `institution_id` label doesn't say OID. Served as `application/json`. Otherwise the same as v1, including the card template. |
 | Student status v1 | `https://openbadge.digicredential.eu/credentials/student-status/v1/StudentStatusVCT` | First version. |
 
-Issue new Open Badges with v3 and new student statuses with Student status v2. Each version is a full copy of the previous one, not an `extends` of it, so wallets that don't resolve `extends` get every label.
-
-v3 changes the claims. When moving from v2, change your mapping, not just the `vct`:
-
-- `name` is now the holder's full name. The credential's `name`, `description` and `image` are `credentialName`, `credentialDescription` and `credentialImage`.
-- The organisation that assessed the achievement is `source`, and the card shows `source.name`. `achievement.creator` is only for the organisation that defined the achievement, and its label is "Created by".
-- `issuer` is the issuer's `Profile`, labelled "Awarded by". Endorsements are copied unchanged.
-- The card no longer shows the badge image, because SD-JWT VC doesn't allow placeholders in attributes.
-- `achievement` is marked `mandatory`.
-- The type metadata is served as `application/json`. The v1 and v2 URLs have no extension, so GitHub Pages serves them as `application/octet-stream`.
+Issue new Open Badges with v3 and new student statuses with Student status v2.
